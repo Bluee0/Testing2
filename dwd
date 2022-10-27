@@ -1,0 +1,3047 @@
+local ESP = loadstring(game:HttpGet("https://pastebin.com/raw/FprPCBs8"))()
+
+local PizzaDLC = {
+	PizzaDLC = Instance.new("ScreenGui"),
+	Drag = Instance.new("Frame"),
+	Frame = Instance.new("Frame"),
+	Logo = Instance.new("ImageLabel"),
+	UIGradient = Instance.new("UIGradient"),
+	Line = Instance.new("Frame"),
+	BTNHOLDER = Instance.new("Frame"),
+	Visual = Instance.new("TextButton"),
+	UICorner = Instance.new("UICorner"),
+	UIListLayout = Instance.new("UIListLayout"),
+	ESPs = Instance.new("TextButton"),
+	UICorner_2 = Instance.new("UICorner"),
+	Bot = Instance.new("TextButton"),
+	UICorner_3 = Instance.new("UICorner"),
+	Mis = Instance.new("TextButton"),
+	UICorner_4 = Instance.new("UICorner"),
+	Visuals = Instance.new("Frame"),
+	UIListLayout_2 = Instance.new("UIListLayout"),
+	Fov = Instance.new("TextButton"),
+	Text2 = Instance.new("TextLabel"),
+	UICorner_5 = Instance.new("UICorner"),
+	Circle = Instance.new("Frame"),
+	Mini = Instance.new("Frame"),
+	UICorner_6 = Instance.new("UICorner"),
+	UICorner_7 = Instance.new("UICorner"),
+	Color = Instance.new("Frame"),
+	Frame_2 = Instance.new("Frame"),
+	Slider4 = Instance.new("Frame"),
+	Slide4 = Instance.new("Frame"),
+	UICorner_8 = Instance.new("UICorner"),
+	Frame_3 = Instance.new("ImageLabel"),
+	Frame_4 = Instance.new("ImageLabel"),
+	UIListLayout_3 = Instance.new("UIListLayout"),
+	stuff4 = Instance.new("TextLabel"),
+	TextLabel = Instance.new("TextLabel"),
+	UICorner_9 = Instance.new("UICorner"),
+	Frame2 = Instance.new("Frame"),
+	Crosshair = Instance.new("TextButton"),
+	Text2_2 = Instance.new("TextLabel"),
+	UICorner_10 = Instance.new("UICorner"),
+	Circle_2 = Instance.new("Frame"),
+	Mini_2 = Instance.new("Frame"),
+	UICorner_11 = Instance.new("UICorner"),
+	UICorner_12 = Instance.new("UICorner"),
+	Color_2 = Instance.new("Frame"),
+	Uifix = Instance.new("Folder"),
+	Esp = Instance.new("Frame"),
+	UIListLayout_4 = Instance.new("UIListLayout"),
+	Activated = Instance.new("TextButton"),
+	Text2_3 = Instance.new("TextLabel"),
+	UICorner_13 = Instance.new("UICorner"),
+	Circle_3 = Instance.new("Frame"),
+	Mini_3 = Instance.new("Frame"),
+	UICorner_14 = Instance.new("UICorner"),
+	UICorner_15 = Instance.new("UICorner"),
+	Color_3 = Instance.new("Frame"),
+	Boxes = Instance.new("TextButton"),
+	Text2_4 = Instance.new("TextLabel"),
+	UICorner_16 = Instance.new("UICorner"),
+	Circle_4 = Instance.new("Frame"),
+	Mini_4 = Instance.new("Frame"),
+	UICorner_17 = Instance.new("UICorner"),
+	UICorner_18 = Instance.new("UICorner"),
+	Color_4 = Instance.new("Frame"),
+	ST = Instance.new("TextButton"),
+	Text2_5 = Instance.new("TextLabel"),
+	UICorner_19 = Instance.new("UICorner"),
+	Circle_5 = Instance.new("Frame"),
+	Mini_5 = Instance.new("Frame"),
+	UICorner_20 = Instance.new("UICorner"),
+	UICorner_21 = Instance.new("UICorner"),
+	Color_5 = Instance.new("Frame"),
+	SD = Instance.new("TextButton"),
+	Text2_6 = Instance.new("TextLabel"),
+	UICorner_22 = Instance.new("UICorner"),
+	Circle_6 = Instance.new("Frame"),
+	Mini_6 = Instance.new("Frame"),
+	UICorner_23 = Instance.new("UICorner"),
+	UICorner_24 = Instance.new("UICorner"),
+	Color_6 = Instance.new("Frame"),
+	SN = Instance.new("TextButton"),
+	Text2_7 = Instance.new("TextLabel"),
+	UICorner_25 = Instance.new("UICorner"),
+	Circle_7 = Instance.new("Frame"),
+	Mini_7 = Instance.new("Frame"),
+	UICorner_26 = Instance.new("UICorner"),
+	UICorner_27 = Instance.new("UICorner"),
+	Color_7 = Instance.new("Frame"),
+	CTDF = Instance.new("TextButton"),
+	Text2_8 = Instance.new("TextLabel"),
+	UICorner_28 = Instance.new("UICorner"),
+	Circle_8 = Instance.new("Frame"),
+	Mini_8 = Instance.new("Frame"),
+	UICorner_29 = Instance.new("UICorner"),
+	UICorner_30 = Instance.new("UICorner"),
+	Color_8 = Instance.new("Frame"),
+	Trc = Instance.new("Frame"),
+	SliderT = Instance.new("Frame"),
+	SlideT = Instance.new("Frame"),
+	UICorner_31 = Instance.new("UICorner"),
+	FrameT = Instance.new("ImageLabel"),
+	Frame_5 = Instance.new("ImageLabel"),
+	UIListLayout_5 = Instance.new("UIListLayout"),
+	stuffT = Instance.new("TextLabel"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	UICorner_32 = Instance.new("UICorner"),
+	Trc2 = Instance.new("Frame"),
+	UD = Instance.new("TextButton"),
+	Text2_9 = Instance.new("TextLabel"),
+	UICorner_33 = Instance.new("UICorner"),
+	Circle_9 = Instance.new("Frame"),
+	Mini_9 = Instance.new("Frame"),
+	UICorner_34 = Instance.new("UICorner"),
+	UICorner_35 = Instance.new("UICorner"),
+	Color_9 = Instance.new("Frame"),
+	TC = Instance.new("TextButton"),
+	Text2_10 = Instance.new("TextLabel"),
+	UICorner_36 = Instance.new("UICorner"),
+	Circle_10 = Instance.new("Frame"),
+	Mini_10 = Instance.new("Frame"),
+	UICorner_37 = Instance.new("UICorner"),
+	UICorner_38 = Instance.new("UICorner"),
+	Color_10 = Instance.new("Frame"),
+	TCC = Instance.new("TextButton"),
+	Text2_11 = Instance.new("TextLabel"),
+	UICorner_39 = Instance.new("UICorner"),
+	Circle_11 = Instance.new("Frame"),
+	Mini_11 = Instance.new("Frame"),
+	UICorner_40 = Instance.new("UICorner"),
+	UICorner_41 = Instance.new("UICorner"),
+	Color_11 = Instance.new("Frame"),
+	Rainbow = Instance.new("TextButton"),
+	Text2_12 = Instance.new("TextLabel"),
+	UICorner_42 = Instance.new("UICorner"),
+	Circle_12 = Instance.new("Frame"),
+	Mini_12 = Instance.new("Frame"),
+	UICorner_43 = Instance.new("UICorner"),
+	UICorner_44 = Instance.new("UICorner"),
+	Color_12 = Instance.new("Frame"),
+	RainbowC = Instance.new("Frame"),
+	Aimbot = Instance.new("Frame"),
+	UIListLayout_6 = Instance.new("UIListLayout"),
+	Fov_2 = Instance.new("TextButton"),
+	Text2_13 = Instance.new("TextLabel"),
+	UICorner_45 = Instance.new("UICorner"),
+	Circle_13 = Instance.new("Frame"),
+	Mini_13 = Instance.new("Frame"),
+	UICorner_46 = Instance.new("UICorner"),
+	UICorner_47 = Instance.new("UICorner"),
+	Color_13 = Instance.new("Frame"),
+	Frame_6 = Instance.new("Frame"),
+	SliderFV = Instance.new("Frame"),
+	Slidefv = Instance.new("Frame"),
+	UICorner_48 = Instance.new("UICorner"),
+	Frame_7 = Instance.new("ImageLabel"),
+	Frame_8 = Instance.new("ImageLabel"),
+	UIListLayout_7 = Instance.new("UIListLayout"),
+	stufffv = Instance.new("TextLabel"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	UICorner_49 = Instance.new("UICorner"),
+	Frame2_2 = Instance.new("Frame"),
+	Aimbot_2 = Instance.new("TextButton"),
+	Text2_14 = Instance.new("TextLabel"),
+	UICorner_50 = Instance.new("UICorner"),
+	Circle_14 = Instance.new("Frame"),
+	Mini_14 = Instance.new("Frame"),
+	UICorner_51 = Instance.new("UICorner"),
+	UICorner_52 = Instance.new("UICorner"),
+	Color_14 = Instance.new("Frame"),
+	Aimbot_3 = Instance.new("TextButton"),
+	Text2_15 = Instance.new("TextLabel"),
+	UICorner_53 = Instance.new("UICorner"),
+	Circle_15 = Instance.new("Frame"),
+	Mini_15 = Instance.new("Frame"),
+	UICorner_54 = Instance.new("UICorner"),
+	UICorner_55 = Instance.new("UICorner"),
+	Color_15 = Instance.new("Frame"),
+	Bone = Instance.new("Frame"),
+	Change = Instance.new("TextLabel"),
+	Opener = Instance.new("TextButton"),
+	Boner = Instance.new("Frame"),
+	Head = Instance.new("TextButton"),
+	Torso = Instance.new("TextButton"),
+	Misc = Instance.new("Frame"),
+	UIListLayout_8 = Instance.new("UIListLayout"),
+	Speed = Instance.new("TextButton"),
+	Text2_16 = Instance.new("TextLabel"),
+	UICorner_56 = Instance.new("UICorner"),
+	Circle_16 = Instance.new("Frame"),
+	Mini_16 = Instance.new("Frame"),
+	UICorner_57 = Instance.new("UICorner"),
+	UICorner_58 = Instance.new("UICorner"),
+	Color_16 = Instance.new("Frame"),
+	Frame_9 = Instance.new("Frame"),
+	Slider4_2 = Instance.new("Frame"),
+	Slide4_2 = Instance.new("Frame"),
+	UICorner_59 = Instance.new("UICorner"),
+	Frame_10 = Instance.new("ImageLabel"),
+	Frame_11 = Instance.new("ImageLabel"),
+	UIListLayout_9 = Instance.new("UIListLayout"),
+	stuff4_2 = Instance.new("TextLabel"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	UICorner_60 = Instance.new("UICorner"),
+	Frame2_3 = Instance.new("Frame"),
+	Fly = Instance.new("TextButton"),
+	Text2_17 = Instance.new("TextLabel"),
+	UICorner_61 = Instance.new("UICorner"),
+	Circle_17 = Instance.new("Frame"),
+	Mini_17 = Instance.new("Frame"),
+	UICorner_62 = Instance.new("UICorner"),
+	UICorner_63 = Instance.new("UICorner"),
+	Color_17 = Instance.new("Frame"),
+	IrrelevantBp = Instance.new("Frame"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	UIListLayout_10 = Instance.new("UIListLayout"),
+	Frame_12 = Instance.new("Frame"),
+	Unlocker = Instance.new("TextButton"),
+	Text2_18 = Instance.new("TextLabel"),
+	UICorner_64 = Instance.new("UICorner"),
+	Circle_18 = Instance.new("Frame"),
+	Mini_18 = Instance.new("Frame"),
+	UICorner_65 = Instance.new("UICorner"),
+	UICorner_66 = Instance.new("UICorner"),
+	Color_18 = Instance.new("Frame"),
+	Idk = Instance.new("TextLabel"),
+}
+
+--Properties:
+
+PizzaDLC.PizzaDLC.Name = "PizzaDLC"
+PizzaDLC.PizzaDLC.Parent = game.CoreGui
+PizzaDLC.PizzaDLC.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+PizzaDLC.Drag.Name = "Drag"
+PizzaDLC.Drag.Parent = PizzaDLC.PizzaDLC
+PizzaDLC.Drag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Drag.BorderSizePixel = 0
+PizzaDLC.Drag.Position = UDim2.new(0.514184415, 0, 0.224969104, 0)
+PizzaDLC.Drag.Size = UDim2.new(0, 312, 0, 12)
+PizzaDLC.Drag.ZIndex = 5
+
+PizzaDLC.Frame.Parent = PizzaDLC.Drag
+PizzaDLC.Frame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+PizzaDLC.Frame.BorderColor3 = Color3.fromRGB(159, 159, 159)
+PizzaDLC.Frame.Position = UDim2.new(-0.00184122717, 0, -0.010197957, 0)
+PizzaDLC.Frame.Size = UDim2.new(0, 312, 0, 518)
+
+PizzaDLC.Logo.Name = "Logo"
+PizzaDLC.Logo.Parent = PizzaDLC.Frame
+PizzaDLC.Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Logo.BackgroundTransparency = 1.000
+PizzaDLC.Logo.BorderColor3 = Color3.fromRGB(255, 0, 89)
+PizzaDLC.Logo.Position = UDim2.new(0.357371807, 0, 0.00480500981, 0)
+PizzaDLC.Logo.Size = UDim2.new(0, 89, 0, 59)
+PizzaDLC.Logo.Image = "http://www.roblox.com/asset/?id=6758898219"
+PizzaDLC.Logo.ImageColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Logo.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(254, 239, 255))}
+PizzaDLC.UIGradient.Rotation = 260.90972900390625
+PizzaDLC.UIGradient.Parent = PizzaDLC.Logo
+
+PizzaDLC.Line.Name = "Line"
+PizzaDLC.Line.Parent = PizzaDLC.Frame
+PizzaDLC.Line.BackgroundColor3 = Color3.fromRGB(218, 5, 255)
+PizzaDLC.Line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Line.BorderSizePixel = 0
+PizzaDLC.Line.Position = UDim2.new(0, 0, 0.179000005, 7)
+PizzaDLC.Line.Size = UDim2.new(0, 312, 0, 1)
+
+PizzaDLC.BTNHOLDER.Name = "BTNHOLDER"
+PizzaDLC.BTNHOLDER.Parent = PizzaDLC.Frame
+PizzaDLC.BTNHOLDER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.BTNHOLDER.BackgroundTransparency = 1.000
+PizzaDLC.BTNHOLDER.BorderSizePixel = 0
+PizzaDLC.BTNHOLDER.Position = UDim2.new(0.0192307699, 0, 0.14969936, 0)
+PizzaDLC.BTNHOLDER.Size = UDim2.new(0, 193, 0, 25)
+
+PizzaDLC.Visual.Name = "Visual"
+PizzaDLC.Visual.Parent = PizzaDLC.BTNHOLDER
+PizzaDLC.Visual.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Visual.BorderSizePixel = 0
+PizzaDLC.Visual.Position = UDim2.new(0, 0, 0.192307696, 0)
+PizzaDLC.Visual.Size = UDim2.new(0, 53, 0, 23)
+PizzaDLC.Visual.Font = Enum.Font.ArialBold
+PizzaDLC.Visual.Text = "Visuals"
+PizzaDLC.Visual.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Visual.TextSize = 14.000
+
+PizzaDLC.UICorner.CornerRadius = UDim.new(0, 2)
+PizzaDLC.UICorner.Parent = PizzaDLC.Visual
+
+PizzaDLC.UIListLayout.Parent = PizzaDLC.BTNHOLDER
+PizzaDLC.UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+PizzaDLC.UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout.Padding = UDim.new(0, 2)
+
+PizzaDLC.ESPs.Name = "ESPs"
+PizzaDLC.ESPs.Parent = PizzaDLC.BTNHOLDER
+PizzaDLC.ESPs.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.ESPs.BackgroundTransparency = 1.000
+PizzaDLC.ESPs.BorderSizePixel = 0
+PizzaDLC.ESPs.Position = UDim2.new(0.284974098, 0, 0.192307696, 0)
+PizzaDLC.ESPs.Size = UDim2.new(0, 35, 0, 23)
+PizzaDLC.ESPs.Font = Enum.Font.ArialBold
+PizzaDLC.ESPs.Text = "ESP"
+PizzaDLC.ESPs.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.ESPs.TextSize = 14.000
+
+PizzaDLC.UICorner_2.CornerRadius = UDim.new(0, 2)
+PizzaDLC.UICorner_2.Parent = PizzaDLC.ESPs
+
+PizzaDLC.Bot.Name = "Bot"
+PizzaDLC.Bot.Parent = PizzaDLC.BTNHOLDER
+PizzaDLC.Bot.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Bot.BackgroundTransparency = 1.000
+PizzaDLC.Bot.BorderSizePixel = 0
+PizzaDLC.Bot.Position = UDim2.new(0.476683944, 0, 0, 0)
+PizzaDLC.Bot.Size = UDim2.new(0, 52, 0, 23)
+PizzaDLC.Bot.Font = Enum.Font.ArialBold
+PizzaDLC.Bot.Text = "Aimbot"
+PizzaDLC.Bot.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Bot.TextSize = 14.000
+
+PizzaDLC.UICorner_3.CornerRadius = UDim.new(0, 2)
+PizzaDLC.UICorner_3.Parent = PizzaDLC.Bot
+
+PizzaDLC.Mis.Name = "Mis"
+PizzaDLC.Mis.Parent = PizzaDLC.BTNHOLDER
+PizzaDLC.Mis.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Mis.BackgroundTransparency = 1.000
+PizzaDLC.Mis.BorderSizePixel = 0
+PizzaDLC.Mis.Position = UDim2.new(0.746114016, 0, 0, 0)
+PizzaDLC.Mis.Size = UDim2.new(0, 36, 0, 23)
+PizzaDLC.Mis.Font = Enum.Font.ArialBold
+PizzaDLC.Mis.Text = "Misc"
+PizzaDLC.Mis.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Mis.TextSize = 14.000
+
+PizzaDLC.UICorner_4.CornerRadius = UDim.new(0, 2)
+PizzaDLC.UICorner_4.Parent = PizzaDLC.Mis
+
+PizzaDLC.Visuals.Name = "Visuals"
+PizzaDLC.Visuals.Parent = PizzaDLC.Frame
+PizzaDLC.Visuals.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Visuals.BackgroundTransparency = 1.000
+PizzaDLC.Visuals.Position = UDim2.new(0.0192307699, 0, 0.210754156, 0)
+PizzaDLC.Visuals.Size = UDim2.new(0, 299, 0, 400)
+
+PizzaDLC.UIListLayout_2.Parent = PizzaDLC.Visuals
+PizzaDLC.UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_2.Padding = UDim.new(0, 4)
+
+PizzaDLC.Fov.Name = "Fov"
+PizzaDLC.Fov.Parent = PizzaDLC.Visuals
+PizzaDLC.Fov.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Fov.BorderSizePixel = 0
+PizzaDLC.Fov.Size = UDim2.new(0.0993603766, 0, 0.0408086553, 0)
+PizzaDLC.Fov.Font = Enum.Font.SourceSans
+PizzaDLC.Fov.Text = ""
+PizzaDLC.Fov.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Fov.TextSize = 14.000
+
+PizzaDLC.Text2.Name = "Text2"
+PizzaDLC.Text2.Parent = PizzaDLC.Fov
+PizzaDLC.Text2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2.BackgroundTransparency = 1.000
+PizzaDLC.Text2.Position = UDim2.new(1.16957533, 0, -0.124758244, 0)
+PizzaDLC.Text2.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2.Font = Enum.Font.Code
+PizzaDLC.Text2.Text = "Camera Fov"
+PizzaDLC.Text2.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2.TextSize = 14.000
+PizzaDLC.Text2.TextStrokeTransparency = 0.000
+PizzaDLC.Text2.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_5.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_5.Parent = PizzaDLC.Fov
+
+PizzaDLC.Circle.Name = "Circle"
+PizzaDLC.Circle.Parent = PizzaDLC.Fov
+PizzaDLC.Circle.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle.BorderSizePixel = 0
+PizzaDLC.Circle.Position = UDim2.new(-0.00570388883, 0, 0.500000775, 0)
+PizzaDLC.Circle.Size = UDim2.new(0.49803099, 0, 1.00000036, 0)
+
+PizzaDLC.Mini.Name = "Mini"
+PizzaDLC.Mini.Parent = PizzaDLC.Circle
+PizzaDLC.Mini.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini.Visible = false
+
+PizzaDLC.UICorner_6.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_6.Parent = PizzaDLC.Mini
+
+PizzaDLC.UICorner_7.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_7.Parent = PizzaDLC.Circle
+
+PizzaDLC.Color.Name = "Color"
+PizzaDLC.Color.Parent = PizzaDLC.Fov
+PizzaDLC.Color.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color.BackgroundTransparency = 1.000
+PizzaDLC.Color.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Frame_2.Parent = PizzaDLC.Visuals
+PizzaDLC.Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame_2.BackgroundTransparency = 1.000
+PizzaDLC.Frame_2.Position = UDim2.new(0, 0, 0.0508086383, 0)
+PizzaDLC.Frame_2.Size = UDim2.new(0, 264, 0, 19)
+PizzaDLC.Frame_2.Visible = false
+
+PizzaDLC.Slider4.Name = "Slider4"
+PizzaDLC.Slider4.Parent = PizzaDLC.Visuals
+PizzaDLC.Slider4.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PizzaDLC.Slider4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Slider4.Position = UDim2.new(0, 0, 0.0816175044, 0)
+PizzaDLC.Slider4.Size = UDim2.new(0, 257, 0, 6)
+PizzaDLC.Slider4.Visible = false
+
+PizzaDLC.Slide4.Name = "Slide4"
+PizzaDLC.Slide4.Parent = PizzaDLC.Slider4
+PizzaDLC.Slide4.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Slide4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Slide4.Position = UDim2.new(-0.000739331532, 0, 0, 0)
+PizzaDLC.Slide4.Size = UDim2.new(0, 74, 0, 6)
+
+PizzaDLC.UICorner_8.Parent = PizzaDLC.Slide4
+
+PizzaDLC.Frame_3.Name = "Frame"
+PizzaDLC.Frame_3.Parent = PizzaDLC.Slide4
+PizzaDLC.Frame_3.BackgroundTransparency = 1.000
+PizzaDLC.Frame_3.BorderSizePixel = 0
+PizzaDLC.Frame_3.Position = UDim2.new(0.952000022, 0, -1.74899995, 0)
+PizzaDLC.Frame_3.Size = UDim2.new(0, 18, 0, 26)
+PizzaDLC.Frame_3.ZIndex = 2
+PizzaDLC.Frame_3.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_3.ImageColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Frame_3.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.Frame_4.Name = "Frame"
+PizzaDLC.Frame_4.Parent = PizzaDLC.Frame_3
+PizzaDLC.Frame_4.BackgroundTransparency = 1.000
+PizzaDLC.Frame_4.BorderSizePixel = 0
+PizzaDLC.Frame_4.Position = UDim2.new(0.222222224, 0, 0.288461536, 0)
+PizzaDLC.Frame_4.Size = UDim2.new(0, 14, 0, 18)
+PizzaDLC.Frame_4.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_4.ImageColor3 = Color3.fromRGB(30, 30, 30)
+PizzaDLC.Frame_4.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.UIListLayout_3.Parent = PizzaDLC.Frame_3
+PizzaDLC.UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+PizzaDLC.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+
+PizzaDLC.stuff4.Name = "stuff4"
+PizzaDLC.stuff4.Parent = PizzaDLC.Slider4
+PizzaDLC.stuff4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuff4.BackgroundTransparency = 1.000
+PizzaDLC.stuff4.Position = UDim2.new(0.270545572, 0, -3.23260498, 0)
+PizzaDLC.stuff4.Size = UDim2.new(0, 85, 0, 12)
+PizzaDLC.stuff4.Font = Enum.Font.Code
+PizzaDLC.stuff4.Text = "100"
+PizzaDLC.stuff4.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuff4.TextSize = 12.000
+PizzaDLC.stuff4.TextStrokeTransparency = 0.000
+PizzaDLC.stuff4.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.TextLabel.Parent = PizzaDLC.Slider4
+PizzaDLC.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel.BackgroundTransparency = 1.000
+PizzaDLC.TextLabel.Position = UDim2.new(0.0152466772, 0, -3.23260498, 0)
+PizzaDLC.TextLabel.Size = UDim2.new(0, 66, 0, 12)
+PizzaDLC.TextLabel.Font = Enum.Font.Code
+PizzaDLC.TextLabel.Text = "Fov Size:"
+PizzaDLC.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel.TextSize = 14.000
+PizzaDLC.TextLabel.TextStrokeTransparency = 0.000
+PizzaDLC.TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_9.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_9.Parent = PizzaDLC.Slider4
+
+PizzaDLC.Frame2.Name = "Frame2"
+PizzaDLC.Frame2.Parent = PizzaDLC.Visuals
+PizzaDLC.Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame2.BackgroundTransparency = 1.000
+PizzaDLC.Frame2.Position = UDim2.new(0, 0, 0.133308634, 0)
+PizzaDLC.Frame2.Size = UDim2.new(0, 264, 0, 5)
+PizzaDLC.Frame2.Visible = false
+
+PizzaDLC.Crosshair.Name = "Crosshair"
+PizzaDLC.Crosshair.Parent = PizzaDLC.Visuals
+PizzaDLC.Crosshair.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Crosshair.BorderSizePixel = 0
+PizzaDLC.Crosshair.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Crosshair.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Crosshair.Font = Enum.Font.SourceSans
+PizzaDLC.Crosshair.Text = ""
+PizzaDLC.Crosshair.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Crosshair.TextSize = 14.000
+
+PizzaDLC.Text2_2.Name = "Text2"
+PizzaDLC.Text2_2.Parent = PizzaDLC.Crosshair
+PizzaDLC.Text2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_2.BackgroundTransparency = 1.000
+PizzaDLC.Text2_2.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_2.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_2.Font = Enum.Font.Code
+PizzaDLC.Text2_2.Text = "Crosshair"
+PizzaDLC.Text2_2.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_2.TextSize = 14.000
+PizzaDLC.Text2_2.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_10.Parent = PizzaDLC.Crosshair
+
+PizzaDLC.Circle_2.Name = "Circle"
+PizzaDLC.Circle_2.Parent = PizzaDLC.Crosshair
+PizzaDLC.Circle_2.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_2.BorderSizePixel = 0
+PizzaDLC.Circle_2.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_2.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_2.Name = "Mini"
+PizzaDLC.Mini_2.Parent = PizzaDLC.Circle_2
+PizzaDLC.Mini_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_2.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_2.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_2.Visible = false
+
+PizzaDLC.UICorner_11.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_11.Parent = PizzaDLC.Mini_2
+
+PizzaDLC.UICorner_12.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_12.Parent = PizzaDLC.Circle_2
+
+PizzaDLC.Color_2.Name = "Color"
+PizzaDLC.Color_2.Parent = PizzaDLC.Crosshair
+PizzaDLC.Color_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_2.BackgroundTransparency = 1.000
+PizzaDLC.Color_2.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_2.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Uifix.Name = "Uifix"
+PizzaDLC.Uifix.Parent = PizzaDLC.Visuals
+
+PizzaDLC.Esp.Name = "Esp"
+PizzaDLC.Esp.Parent = PizzaDLC.Frame
+PizzaDLC.Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Esp.BackgroundTransparency = 1.000
+PizzaDLC.Esp.Position = UDim2.new(0.0192307699, 0, 0.210754156, 0)
+PizzaDLC.Esp.Size = UDim2.new(0, 299, 0, 400)
+PizzaDLC.Esp.Visible = false
+
+PizzaDLC.UIListLayout_4.Parent = PizzaDLC.Esp
+PizzaDLC.UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_4.Padding = UDim.new(0, 4)
+
+PizzaDLC.Activated.Name = "Activated"
+PizzaDLC.Activated.Parent = PizzaDLC.Esp
+PizzaDLC.Activated.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Activated.BorderSizePixel = 0
+PizzaDLC.Activated.Size = UDim2.new(0.0993603766, 0, 0.0408086553, 0)
+PizzaDLC.Activated.Font = Enum.Font.SourceSans
+PizzaDLC.Activated.Text = ""
+PizzaDLC.Activated.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Activated.TextSize = 14.000
+
+PizzaDLC.Text2_3.Name = "Text2"
+PizzaDLC.Text2_3.Parent = PizzaDLC.Activated
+PizzaDLC.Text2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_3.BackgroundTransparency = 1.000
+PizzaDLC.Text2_3.Position = UDim2.new(1.16957533, 0, -0.124758244, 0)
+PizzaDLC.Text2_3.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_3.Font = Enum.Font.Code
+PizzaDLC.Text2_3.Text = "Esp Activated"
+PizzaDLC.Text2_3.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_3.TextSize = 14.000
+PizzaDLC.Text2_3.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_3.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_13.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_13.Parent = PizzaDLC.Activated
+
+PizzaDLC.Circle_3.Name = "Circle"
+PizzaDLC.Circle_3.Parent = PizzaDLC.Activated
+PizzaDLC.Circle_3.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_3.BorderSizePixel = 0
+PizzaDLC.Circle_3.Position = UDim2.new(-0.00570388883, 0, 0.500000775, 0)
+PizzaDLC.Circle_3.Size = UDim2.new(0.49803099, 0, 1.00000036, 0)
+
+PizzaDLC.Mini_3.Name = "Mini"
+PizzaDLC.Mini_3.Parent = PizzaDLC.Circle_3
+PizzaDLC.Mini_3.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_3.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_3.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_3.Visible = false
+
+PizzaDLC.UICorner_14.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_14.Parent = PizzaDLC.Mini_3
+
+PizzaDLC.UICorner_15.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_15.Parent = PizzaDLC.Circle_3
+
+PizzaDLC.Color_3.Name = "Color"
+PizzaDLC.Color_3.Parent = PizzaDLC.Activated
+PizzaDLC.Color_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_3.BackgroundTransparency = 1.000
+PizzaDLC.Color_3.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_3.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Boxes.Name = "Boxes"
+PizzaDLC.Boxes.Parent = PizzaDLC.Esp
+PizzaDLC.Boxes.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Boxes.BorderSizePixel = 0
+PizzaDLC.Boxes.Size = UDim2.new(0.0993603766, 0, 0.0408086553, 0)
+PizzaDLC.Boxes.Font = Enum.Font.SourceSans
+PizzaDLC.Boxes.Text = ""
+PizzaDLC.Boxes.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Boxes.TextSize = 14.000
+
+PizzaDLC.Text2_4.Name = "Text2"
+PizzaDLC.Text2_4.Parent = PizzaDLC.Boxes
+PizzaDLC.Text2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_4.BackgroundTransparency = 1.000
+PizzaDLC.Text2_4.Position = UDim2.new(1.16957533, 0, -0.124758244, 0)
+PizzaDLC.Text2_4.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_4.Font = Enum.Font.Code
+PizzaDLC.Text2_4.Text = "Show Boxes"
+PizzaDLC.Text2_4.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_4.TextSize = 14.000
+PizzaDLC.Text2_4.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_4.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_16.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_16.Parent = PizzaDLC.Boxes
+
+PizzaDLC.Circle_4.Name = "Circle"
+PizzaDLC.Circle_4.Parent = PizzaDLC.Boxes
+PizzaDLC.Circle_4.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_4.BorderSizePixel = 0
+PizzaDLC.Circle_4.Position = UDim2.new(-0.00570388883, 0, 0.500000775, 0)
+PizzaDLC.Circle_4.Size = UDim2.new(0.49803099, 0, 1.00000036, 0)
+
+PizzaDLC.Mini_4.Name = "Mini"
+PizzaDLC.Mini_4.Parent = PizzaDLC.Circle_4
+PizzaDLC.Mini_4.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_4.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_4.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_4.Visible = false
+
+PizzaDLC.UICorner_17.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_17.Parent = PizzaDLC.Mini_4
+
+PizzaDLC.UICorner_18.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_18.Parent = PizzaDLC.Circle_4
+
+PizzaDLC.Color_4.Name = "Color"
+PizzaDLC.Color_4.Parent = PizzaDLC.Boxes
+PizzaDLC.Color_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_4.BackgroundTransparency = 1.000
+PizzaDLC.Color_4.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_4.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.ST.Name = "ST"
+PizzaDLC.ST.Parent = PizzaDLC.Esp
+PizzaDLC.ST.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.ST.BorderSizePixel = 0
+PizzaDLC.ST.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.ST.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.ST.Font = Enum.Font.SourceSans
+PizzaDLC.ST.Text = ""
+PizzaDLC.ST.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.ST.TextSize = 14.000
+
+PizzaDLC.Text2_5.Name = "Text2"
+PizzaDLC.Text2_5.Parent = PizzaDLC.ST
+PizzaDLC.Text2_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_5.BackgroundTransparency = 1.000
+PizzaDLC.Text2_5.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_5.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_5.Font = Enum.Font.Code
+PizzaDLC.Text2_5.Text = "Show Tracers"
+PizzaDLC.Text2_5.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_5.TextSize = 14.000
+PizzaDLC.Text2_5.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_5.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_19.Parent = PizzaDLC.ST
+
+PizzaDLC.Circle_5.Name = "Circle"
+PizzaDLC.Circle_5.Parent = PizzaDLC.ST
+PizzaDLC.Circle_5.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_5.BorderSizePixel = 0
+PizzaDLC.Circle_5.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_5.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_5.Name = "Mini"
+PizzaDLC.Mini_5.Parent = PizzaDLC.Circle_5
+PizzaDLC.Mini_5.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_5.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_5.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_5.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_5.Visible = false
+
+PizzaDLC.UICorner_20.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_20.Parent = PizzaDLC.Mini_5
+
+PizzaDLC.UICorner_21.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_21.Parent = PizzaDLC.Circle_5
+
+PizzaDLC.Color_5.Name = "Color"
+PizzaDLC.Color_5.Parent = PizzaDLC.ST
+PizzaDLC.Color_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_5.BackgroundTransparency = 1.000
+PizzaDLC.Color_5.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_5.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.SD.Name = "SD"
+PizzaDLC.SD.Parent = PizzaDLC.Esp
+PizzaDLC.SD.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.SD.BorderSizePixel = 0
+PizzaDLC.SD.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.SD.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.SD.Font = Enum.Font.SourceSans
+PizzaDLC.SD.Text = ""
+PizzaDLC.SD.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.SD.TextSize = 14.000
+
+PizzaDLC.Text2_6.Name = "Text2"
+PizzaDLC.Text2_6.Parent = PizzaDLC.SD
+PizzaDLC.Text2_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_6.BackgroundTransparency = 1.000
+PizzaDLC.Text2_6.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_6.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_6.Font = Enum.Font.Code
+PizzaDLC.Text2_6.Text = "Show Distance"
+PizzaDLC.Text2_6.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_6.TextSize = 14.000
+PizzaDLC.Text2_6.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_6.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_22.Parent = PizzaDLC.SD
+
+PizzaDLC.Circle_6.Name = "Circle"
+PizzaDLC.Circle_6.Parent = PizzaDLC.SD
+PizzaDLC.Circle_6.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_6.BorderSizePixel = 0
+PizzaDLC.Circle_6.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_6.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_6.Name = "Mini"
+PizzaDLC.Mini_6.Parent = PizzaDLC.Circle_6
+PizzaDLC.Mini_6.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_6.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_6.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_6.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_6.Visible = false
+
+PizzaDLC.UICorner_23.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_23.Parent = PizzaDLC.Mini_6
+
+PizzaDLC.UICorner_24.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_24.Parent = PizzaDLC.Circle_6
+
+PizzaDLC.Color_6.Name = "Color"
+PizzaDLC.Color_6.Parent = PizzaDLC.SD
+PizzaDLC.Color_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_6.BackgroundTransparency = 1.000
+PizzaDLC.Color_6.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_6.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.SN.Name = "SN"
+PizzaDLC.SN.Parent = PizzaDLC.Esp
+PizzaDLC.SN.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.SN.BorderSizePixel = 0
+PizzaDLC.SN.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.SN.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.SN.Font = Enum.Font.SourceSans
+PizzaDLC.SN.Text = ""
+PizzaDLC.SN.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.SN.TextSize = 14.000
+
+PizzaDLC.Text2_7.Name = "Text2"
+PizzaDLC.Text2_7.Parent = PizzaDLC.SN
+PizzaDLC.Text2_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_7.BackgroundTransparency = 1.000
+PizzaDLC.Text2_7.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_7.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_7.Font = Enum.Font.Code
+PizzaDLC.Text2_7.Text = "Show Names"
+PizzaDLC.Text2_7.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_7.TextSize = 14.000
+PizzaDLC.Text2_7.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_7.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_25.Parent = PizzaDLC.SN
+
+PizzaDLC.Circle_7.Name = "Circle"
+PizzaDLC.Circle_7.Parent = PizzaDLC.SN
+PizzaDLC.Circle_7.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_7.BorderSizePixel = 0
+PizzaDLC.Circle_7.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_7.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_7.Name = "Mini"
+PizzaDLC.Mini_7.Parent = PizzaDLC.Circle_7
+PizzaDLC.Mini_7.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_7.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_7.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_7.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_7.Visible = false
+
+PizzaDLC.UICorner_26.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_26.Parent = PizzaDLC.Mini_7
+
+PizzaDLC.UICorner_27.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_27.Parent = PizzaDLC.Circle_7
+
+PizzaDLC.Color_7.Name = "Color"
+PizzaDLC.Color_7.Parent = PizzaDLC.SN
+PizzaDLC.Color_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_7.BackgroundTransparency = 1.000
+PizzaDLC.Color_7.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_7.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.CTDF.Name = "CTDF"
+PizzaDLC.CTDF.Parent = PizzaDLC.Esp
+PizzaDLC.CTDF.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.CTDF.BorderSizePixel = 0
+PizzaDLC.CTDF.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.CTDF.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.CTDF.Font = Enum.Font.SourceSans
+PizzaDLC.CTDF.Text = ""
+PizzaDLC.CTDF.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.CTDF.TextSize = 14.000
+
+PizzaDLC.Text2_8.Name = "Text2"
+PizzaDLC.Text2_8.Parent = PizzaDLC.CTDF
+PizzaDLC.Text2_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_8.BackgroundTransparency = 1.000
+PizzaDLC.Text2_8.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_8.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_8.Font = Enum.Font.Code
+PizzaDLC.Text2_8.Text = "Custom Tracer Draw From"
+PizzaDLC.Text2_8.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_8.TextSize = 14.000
+PizzaDLC.Text2_8.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_8.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_28.Parent = PizzaDLC.CTDF
+
+PizzaDLC.Circle_8.Name = "Circle"
+PizzaDLC.Circle_8.Parent = PizzaDLC.CTDF
+PizzaDLC.Circle_8.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_8.BorderSizePixel = 0
+PizzaDLC.Circle_8.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_8.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_8.Name = "Mini"
+PizzaDLC.Mini_8.Parent = PizzaDLC.Circle_8
+PizzaDLC.Mini_8.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_8.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_8.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_8.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_8.Visible = false
+
+PizzaDLC.UICorner_29.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_29.Parent = PizzaDLC.Mini_8
+
+PizzaDLC.UICorner_30.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_30.Parent = PizzaDLC.Circle_8
+
+PizzaDLC.Color_8.Name = "Color"
+PizzaDLC.Color_8.Parent = PizzaDLC.CTDF
+PizzaDLC.Color_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_8.BackgroundTransparency = 1.000
+PizzaDLC.Color_8.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_8.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Trc.Name = "Trc"
+PizzaDLC.Trc.Parent = PizzaDLC.Esp
+PizzaDLC.Trc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Trc.BackgroundTransparency = 1.000
+PizzaDLC.Trc.Position = UDim2.new(0, 0, 0.0508086383, 0)
+PizzaDLC.Trc.Size = UDim2.new(0, 264, 0, 19)
+PizzaDLC.Trc.Visible = false
+
+PizzaDLC.SliderT.Name = "SliderT"
+PizzaDLC.SliderT.Parent = PizzaDLC.Esp
+PizzaDLC.SliderT.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PizzaDLC.SliderT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.SliderT.Position = UDim2.new(0, 0, 0.0816175044, 0)
+PizzaDLC.SliderT.Size = UDim2.new(0, 257, 0, 6)
+PizzaDLC.SliderT.Visible = false
+
+PizzaDLC.SlideT.Name = "SlideT"
+PizzaDLC.SlideT.Parent = PizzaDLC.SliderT
+PizzaDLC.SlideT.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.SlideT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.SlideT.Position = UDim2.new(-0.000739331532, 0, 0, 0)
+PizzaDLC.SlideT.Size = UDim2.new(0, 74, 0, 6)
+
+PizzaDLC.UICorner_31.Parent = PizzaDLC.SlideT
+
+PizzaDLC.FrameT.Name = "FrameT"
+PizzaDLC.FrameT.Parent = PizzaDLC.SlideT
+PizzaDLC.FrameT.BackgroundTransparency = 1.000
+PizzaDLC.FrameT.BorderSizePixel = 0
+PizzaDLC.FrameT.Position = UDim2.new(0.952000022, 0, -1.74899995, 0)
+PizzaDLC.FrameT.Size = UDim2.new(0, 18, 0, 26)
+PizzaDLC.FrameT.ZIndex = 2
+PizzaDLC.FrameT.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.FrameT.ImageColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.FrameT.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.Frame_5.Name = "Frame"
+PizzaDLC.Frame_5.Parent = PizzaDLC.FrameT
+PizzaDLC.Frame_5.BackgroundTransparency = 1.000
+PizzaDLC.Frame_5.BorderSizePixel = 0
+PizzaDLC.Frame_5.Position = UDim2.new(0.222222224, 0, 0.288461536, 0)
+PizzaDLC.Frame_5.Size = UDim2.new(0, 14, 0, 18)
+PizzaDLC.Frame_5.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_5.ImageColor3 = Color3.fromRGB(30, 30, 30)
+PizzaDLC.Frame_5.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.UIListLayout_5.Parent = PizzaDLC.FrameT
+PizzaDLC.UIListLayout_5.HorizontalAlignment = Enum.HorizontalAlignment.Center
+PizzaDLC.UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_5.VerticalAlignment = Enum.VerticalAlignment.Center
+
+PizzaDLC.stuffT.Name = "stuffT"
+PizzaDLC.stuffT.Parent = PizzaDLC.SliderT
+PizzaDLC.stuffT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuffT.BackgroundTransparency = 1.000
+PizzaDLC.stuffT.Position = UDim2.new(0.375486374, 0, -3.23260498, 0)
+PizzaDLC.stuffT.Size = UDim2.new(0, 64, 0, 12)
+PizzaDLC.stuffT.Font = Enum.Font.Code
+PizzaDLC.stuffT.Text = "100"
+PizzaDLC.stuffT.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuffT.TextSize = 12.000
+PizzaDLC.stuffT.TextStrokeTransparency = 0.000
+PizzaDLC.stuffT.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.TextLabel_2.Parent = PizzaDLC.SliderT
+PizzaDLC.TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_2.BackgroundTransparency = 1.000
+PizzaDLC.TextLabel_2.Position = UDim2.new(0.0152466772, 0, -3.23260498, 0)
+PizzaDLC.TextLabel_2.Size = UDim2.new(0, 66, 0, 12)
+PizzaDLC.TextLabel_2.Font = Enum.Font.Code
+PizzaDLC.TextLabel_2.Text = "Tracers From:"
+PizzaDLC.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_2.TextSize = 14.000
+PizzaDLC.TextLabel_2.TextStrokeTransparency = 0.000
+PizzaDLC.TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_32.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_32.Parent = PizzaDLC.SliderT
+
+PizzaDLC.Trc2.Name = "Trc2"
+PizzaDLC.Trc2.Parent = PizzaDLC.Esp
+PizzaDLC.Trc2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Trc2.BackgroundTransparency = 1.000
+PizzaDLC.Trc2.Position = UDim2.new(0, 0, 0.133308634, 0)
+PizzaDLC.Trc2.Size = UDim2.new(0, 264, 0, 5)
+PizzaDLC.Trc2.Visible = false
+
+PizzaDLC.UD.Name = "UD"
+PizzaDLC.UD.Parent = PizzaDLC.Esp
+PizzaDLC.UD.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.UD.BorderSizePixel = 0
+PizzaDLC.UD.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.UD.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.UD.Font = Enum.Font.SourceSans
+PizzaDLC.UD.Text = ""
+PizzaDLC.UD.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.UD.TextSize = 14.000
+
+PizzaDLC.Text2_9.Name = "Text2"
+PizzaDLC.Text2_9.Parent = PizzaDLC.UD
+PizzaDLC.Text2_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_9.BackgroundTransparency = 1.000
+PizzaDLC.Text2_9.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_9.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_9.Font = Enum.Font.Code
+PizzaDLC.Text2_9.Text = "Unlimited Distance"
+PizzaDLC.Text2_9.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_9.TextSize = 14.000
+PizzaDLC.Text2_9.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_9.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_33.Parent = PizzaDLC.UD
+
+PizzaDLC.Circle_9.Name = "Circle"
+PizzaDLC.Circle_9.Parent = PizzaDLC.UD
+PizzaDLC.Circle_9.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_9.BorderSizePixel = 0
+PizzaDLC.Circle_9.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_9.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_9.Name = "Mini"
+PizzaDLC.Mini_9.Parent = PizzaDLC.Circle_9
+PizzaDLC.Mini_9.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_9.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_9.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_9.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_9.Visible = false
+
+PizzaDLC.UICorner_34.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_34.Parent = PizzaDLC.Mini_9
+
+PizzaDLC.UICorner_35.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_35.Parent = PizzaDLC.Circle_9
+
+PizzaDLC.Color_9.Name = "Color"
+PizzaDLC.Color_9.Parent = PizzaDLC.UD
+PizzaDLC.Color_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_9.BackgroundTransparency = 1.000
+PizzaDLC.Color_9.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_9.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.TC.Name = "TC"
+PizzaDLC.TC.Parent = PizzaDLC.Esp
+PizzaDLC.TC.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.TC.BorderSizePixel = 0
+PizzaDLC.TC.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.TC.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.TC.Font = Enum.Font.SourceSans
+PizzaDLC.TC.Text = ""
+PizzaDLC.TC.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.TC.TextSize = 14.000
+
+PizzaDLC.Text2_10.Name = "Text2"
+PizzaDLC.Text2_10.Parent = PizzaDLC.TC
+PizzaDLC.Text2_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_10.BackgroundTransparency = 1.000
+PizzaDLC.Text2_10.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_10.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_10.Font = Enum.Font.Code
+PizzaDLC.Text2_10.Text = "Team Check"
+PizzaDLC.Text2_10.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_10.TextSize = 14.000
+PizzaDLC.Text2_10.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_10.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_36.Parent = PizzaDLC.TC
+
+PizzaDLC.Circle_10.Name = "Circle"
+PizzaDLC.Circle_10.Parent = PizzaDLC.TC
+PizzaDLC.Circle_10.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_10.BorderSizePixel = 0
+PizzaDLC.Circle_10.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_10.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_10.Name = "Mini"
+PizzaDLC.Mini_10.Parent = PizzaDLC.Circle_10
+PizzaDLC.Mini_10.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_10.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_10.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_10.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_10.Visible = false
+
+PizzaDLC.UICorner_37.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_37.Parent = PizzaDLC.Mini_10
+
+PizzaDLC.UICorner_38.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_38.Parent = PizzaDLC.Circle_10
+
+PizzaDLC.Color_10.Name = "Color"
+PizzaDLC.Color_10.Parent = PizzaDLC.TC
+PizzaDLC.Color_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_10.BackgroundTransparency = 1.000
+PizzaDLC.Color_10.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_10.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.TCC.Name = "TCC"
+PizzaDLC.TCC.Parent = PizzaDLC.Esp
+PizzaDLC.TCC.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.TCC.BorderSizePixel = 0
+PizzaDLC.TCC.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.TCC.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.TCC.Font = Enum.Font.SourceSans
+PizzaDLC.TCC.Text = ""
+PizzaDLC.TCC.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.TCC.TextSize = 14.000
+
+PizzaDLC.Text2_11.Name = "Text2"
+PizzaDLC.Text2_11.Parent = PizzaDLC.TCC
+PizzaDLC.Text2_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_11.BackgroundTransparency = 1.000
+PizzaDLC.Text2_11.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_11.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_11.Font = Enum.Font.Code
+PizzaDLC.Text2_11.Text = "Team Colors"
+PizzaDLC.Text2_11.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_11.TextSize = 14.000
+PizzaDLC.Text2_11.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_11.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_39.Parent = PizzaDLC.TCC
+
+PizzaDLC.Circle_11.Name = "Circle"
+PizzaDLC.Circle_11.Parent = PizzaDLC.TCC
+PizzaDLC.Circle_11.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_11.BorderSizePixel = 0
+PizzaDLC.Circle_11.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_11.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_11.Name = "Mini"
+PizzaDLC.Mini_11.Parent = PizzaDLC.Circle_11
+PizzaDLC.Mini_11.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_11.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_11.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_11.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_11.Visible = false
+
+PizzaDLC.UICorner_40.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_40.Parent = PizzaDLC.Mini_11
+
+PizzaDLC.UICorner_41.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_41.Parent = PizzaDLC.Circle_11
+
+PizzaDLC.Color_11.Name = "Color"
+PizzaDLC.Color_11.Parent = PizzaDLC.TCC
+PizzaDLC.Color_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_11.BackgroundTransparency = 1.000
+PizzaDLC.Color_11.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_11.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Rainbow.Name = "Rainbow"
+PizzaDLC.Rainbow.Parent = PizzaDLC.Esp
+PizzaDLC.Rainbow.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Rainbow.BorderSizePixel = 0
+PizzaDLC.Rainbow.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Rainbow.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Rainbow.Font = Enum.Font.SourceSans
+PizzaDLC.Rainbow.Text = ""
+PizzaDLC.Rainbow.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Rainbow.TextSize = 14.000
+
+PizzaDLC.Text2_12.Name = "Text2"
+PizzaDLC.Text2_12.Parent = PizzaDLC.Rainbow
+PizzaDLC.Text2_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_12.BackgroundTransparency = 1.000
+PizzaDLC.Text2_12.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_12.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_12.Font = Enum.Font.Code
+PizzaDLC.Text2_12.Text = "Rainbow Colors"
+PizzaDLC.Text2_12.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_12.TextSize = 14.000
+PizzaDLC.Text2_12.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_12.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_42.Parent = PizzaDLC.Rainbow
+
+PizzaDLC.Circle_12.Name = "Circle"
+PizzaDLC.Circle_12.Parent = PizzaDLC.Rainbow
+PizzaDLC.Circle_12.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_12.BorderSizePixel = 0
+PizzaDLC.Circle_12.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_12.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_12.Name = "Mini"
+PizzaDLC.Mini_12.Parent = PizzaDLC.Circle_12
+PizzaDLC.Mini_12.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_12.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_12.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_12.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_12.Visible = false
+
+PizzaDLC.UICorner_43.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_43.Parent = PizzaDLC.Mini_12
+
+PizzaDLC.UICorner_44.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_44.Parent = PizzaDLC.Circle_12
+
+PizzaDLC.Color_12.Name = "Color"
+PizzaDLC.Color_12.Parent = PizzaDLC.Rainbow
+PizzaDLC.Color_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_12.BackgroundTransparency = 1.000
+PizzaDLC.Color_12.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_12.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.RainbowC.Name = "RainbowC"
+PizzaDLC.RainbowC.Parent = PizzaDLC.Frame
+PizzaDLC.RainbowC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.RainbowC.Position = UDim2.new(0, 0, 0.435602725, 0)
+PizzaDLC.RainbowC.Size = UDim2.new(0, 12, 0, 6)
+PizzaDLC.RainbowC.Visible = false
+
+PizzaDLC.Aimbot.Name = "Aimbot"
+PizzaDLC.Aimbot.Parent = PizzaDLC.Frame
+PizzaDLC.Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Aimbot.BackgroundTransparency = 1.000
+PizzaDLC.Aimbot.Position = UDim2.new(0.0192307699, 0, 0.210754156, 0)
+PizzaDLC.Aimbot.Size = UDim2.new(0, 299, 0, 400)
+PizzaDLC.Aimbot.Visible = false
+
+PizzaDLC.UIListLayout_6.Parent = PizzaDLC.Aimbot
+PizzaDLC.UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_6.Padding = UDim.new(0, 4)
+
+PizzaDLC.Fov_2.Name = "Fov"
+PizzaDLC.Fov_2.Parent = PizzaDLC.Aimbot
+PizzaDLC.Fov_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Fov_2.BorderSizePixel = 0
+PizzaDLC.Fov_2.Size = UDim2.new(0.0993603766, 0, 0.0408086553, 0)
+PizzaDLC.Fov_2.Font = Enum.Font.SourceSans
+PizzaDLC.Fov_2.Text = ""
+PizzaDLC.Fov_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Fov_2.TextSize = 14.000
+
+PizzaDLC.Text2_13.Name = "Text2"
+PizzaDLC.Text2_13.Parent = PizzaDLC.Fov_2
+PizzaDLC.Text2_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_13.BackgroundTransparency = 1.000
+PizzaDLC.Text2_13.Position = UDim2.new(1.16957533, 0, -0.124758244, 0)
+PizzaDLC.Text2_13.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_13.Font = Enum.Font.Code
+PizzaDLC.Text2_13.Text = "Show Fov"
+PizzaDLC.Text2_13.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_13.TextSize = 14.000
+PizzaDLC.Text2_13.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_13.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_45.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_45.Parent = PizzaDLC.Fov_2
+
+PizzaDLC.Circle_13.Name = "Circle"
+PizzaDLC.Circle_13.Parent = PizzaDLC.Fov_2
+PizzaDLC.Circle_13.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_13.BorderSizePixel = 0
+PizzaDLC.Circle_13.Position = UDim2.new(-0.00570388883, 0, 0.500000775, 0)
+PizzaDLC.Circle_13.Size = UDim2.new(0.49803099, 0, 1.00000036, 0)
+
+PizzaDLC.Mini_13.Name = "Mini"
+PizzaDLC.Mini_13.Parent = PizzaDLC.Circle_13
+PizzaDLC.Mini_13.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_13.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_13.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_13.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_13.Visible = false
+
+PizzaDLC.UICorner_46.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_46.Parent = PizzaDLC.Mini_13
+
+PizzaDLC.UICorner_47.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_47.Parent = PizzaDLC.Circle_13
+
+PizzaDLC.Color_13.Name = "Color"
+PizzaDLC.Color_13.Parent = PizzaDLC.Fov_2
+PizzaDLC.Color_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_13.BackgroundTransparency = 1.000
+PizzaDLC.Color_13.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_13.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Frame_6.Parent = PizzaDLC.Aimbot
+PizzaDLC.Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame_6.BackgroundTransparency = 1.000
+PizzaDLC.Frame_6.Position = UDim2.new(0, 0, 0.0508086383, 0)
+PizzaDLC.Frame_6.Size = UDim2.new(0, 264, 0, 19)
+PizzaDLC.Frame_6.Visible = false
+
+PizzaDLC.SliderFV.Name = "SliderFV"
+PizzaDLC.SliderFV.Parent = PizzaDLC.Aimbot
+PizzaDLC.SliderFV.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PizzaDLC.SliderFV.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.SliderFV.Position = UDim2.new(0, 0, 0.0816175044, 0)
+PizzaDLC.SliderFV.Size = UDim2.new(0, 257, 0, 6)
+PizzaDLC.SliderFV.Visible = false
+
+PizzaDLC.Slidefv.Name = "Slidefv"
+PizzaDLC.Slidefv.Parent = PizzaDLC.SliderFV
+PizzaDLC.Slidefv.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Slidefv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Slidefv.Position = UDim2.new(-0.000739331532, 0, 0, 0)
+PizzaDLC.Slidefv.Size = UDim2.new(0, 74, 0, 6)
+
+PizzaDLC.UICorner_48.Parent = PizzaDLC.Slidefv
+
+PizzaDLC.Frame_7.Name = "Frame"
+PizzaDLC.Frame_7.Parent = PizzaDLC.Slidefv
+PizzaDLC.Frame_7.BackgroundTransparency = 1.000
+PizzaDLC.Frame_7.BorderSizePixel = 0
+PizzaDLC.Frame_7.Position = UDim2.new(0.952000022, 0, -1.74899995, 0)
+PizzaDLC.Frame_7.Size = UDim2.new(0, 18, 0, 26)
+PizzaDLC.Frame_7.ZIndex = 2
+PizzaDLC.Frame_7.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_7.ImageColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Frame_7.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.Frame_8.Name = "Frame"
+PizzaDLC.Frame_8.Parent = PizzaDLC.Frame_7
+PizzaDLC.Frame_8.BackgroundTransparency = 1.000
+PizzaDLC.Frame_8.BorderSizePixel = 0
+PizzaDLC.Frame_8.Position = UDim2.new(0.222222224, 0, 0.288461536, 0)
+PizzaDLC.Frame_8.Size = UDim2.new(0, 14, 0, 18)
+PizzaDLC.Frame_8.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_8.ImageColor3 = Color3.fromRGB(30, 30, 30)
+PizzaDLC.Frame_8.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.UIListLayout_7.Parent = PizzaDLC.Frame_7
+PizzaDLC.UIListLayout_7.HorizontalAlignment = Enum.HorizontalAlignment.Center
+PizzaDLC.UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_7.VerticalAlignment = Enum.VerticalAlignment.Center
+
+PizzaDLC.stufffv.Name = "stufffv"
+PizzaDLC.stufffv.Parent = PizzaDLC.SliderFV
+PizzaDLC.stufffv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stufffv.BackgroundTransparency = 1.000
+PizzaDLC.stufffv.Position = UDim2.new(0.332802385, 0, -3.23260498, 0)
+PizzaDLC.stufffv.Size = UDim2.new(0, 85, 0, 12)
+PizzaDLC.stufffv.Font = Enum.Font.Code
+PizzaDLC.stufffv.Text = "100"
+PizzaDLC.stufffv.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stufffv.TextSize = 12.000
+PizzaDLC.stufffv.TextStrokeTransparency = 0.000
+PizzaDLC.stufffv.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.TextLabel_3.Parent = PizzaDLC.SliderFV
+PizzaDLC.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_3.BackgroundTransparency = 1.000
+PizzaDLC.TextLabel_3.Position = UDim2.new(0.0152466772, 0, -3.23260498, 0)
+PizzaDLC.TextLabel_3.Size = UDim2.new(0, 66, 0, 12)
+PizzaDLC.TextLabel_3.Font = Enum.Font.Code
+PizzaDLC.TextLabel_3.Text = "Fov Radius:"
+PizzaDLC.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_3.TextSize = 14.000
+PizzaDLC.TextLabel_3.TextStrokeTransparency = 0.000
+PizzaDLC.TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_49.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_49.Parent = PizzaDLC.SliderFV
+
+PizzaDLC.Frame2_2.Name = "Frame2"
+PizzaDLC.Frame2_2.Parent = PizzaDLC.Aimbot
+PizzaDLC.Frame2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame2_2.BackgroundTransparency = 1.000
+PizzaDLC.Frame2_2.Position = UDim2.new(0, 0, 0.133308634, 0)
+PizzaDLC.Frame2_2.Size = UDim2.new(0, 264, 0, 5)
+PizzaDLC.Frame2_2.Visible = false
+
+PizzaDLC.Aimbot_2.Name = "Aimbot"
+PizzaDLC.Aimbot_2.Parent = PizzaDLC.Aimbot
+PizzaDLC.Aimbot_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Aimbot_2.BorderSizePixel = 0
+PizzaDLC.Aimbot_2.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Aimbot_2.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Aimbot_2.Font = Enum.Font.SourceSans
+PizzaDLC.Aimbot_2.Text = ""
+PizzaDLC.Aimbot_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Aimbot_2.TextSize = 14.000
+
+PizzaDLC.Text2_14.Name = "Text2"
+PizzaDLC.Text2_14.Parent = PizzaDLC.Aimbot_2
+PizzaDLC.Text2_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_14.BackgroundTransparency = 1.000
+PizzaDLC.Text2_14.Position = UDim2.new(1.16957557, 0, -0.0116134277, 0)
+PizzaDLC.Text2_14.Size = UDim2.new(0, 95, 0, 16)
+PizzaDLC.Text2_14.Font = Enum.Font.Code
+PizzaDLC.Text2_14.Text = "Aimbot"
+PizzaDLC.Text2_14.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_14.TextSize = 14.000
+PizzaDLC.Text2_14.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_14.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_50.Parent = PizzaDLC.Aimbot_2
+
+PizzaDLC.Circle_14.Name = "Circle"
+PizzaDLC.Circle_14.Parent = PizzaDLC.Aimbot_2
+PizzaDLC.Circle_14.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_14.BorderSizePixel = 0
+PizzaDLC.Circle_14.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_14.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_14.Name = "Mini"
+PizzaDLC.Mini_14.Parent = PizzaDLC.Circle_14
+PizzaDLC.Mini_14.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_14.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_14.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_14.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_14.Visible = false
+
+PizzaDLC.UICorner_51.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_51.Parent = PizzaDLC.Mini_14
+
+PizzaDLC.UICorner_52.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_52.Parent = PizzaDLC.Circle_14
+
+PizzaDLC.Color_14.Name = "Color"
+PizzaDLC.Color_14.Parent = PizzaDLC.Aimbot_2
+PizzaDLC.Color_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_14.BackgroundTransparency = 1.000
+PizzaDLC.Color_14.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_14.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Aimbot_3.Name = "Aimbot"
+PizzaDLC.Aimbot_3.Parent = PizzaDLC.Aimbot
+PizzaDLC.Aimbot_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Aimbot_3.BorderSizePixel = 0
+PizzaDLC.Aimbot_3.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Aimbot_3.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Aimbot_3.Font = Enum.Font.SourceSans
+PizzaDLC.Aimbot_3.Text = ""
+PizzaDLC.Aimbot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Aimbot_3.TextSize = 14.000
+
+PizzaDLC.Text2_15.Name = "Text2"
+PizzaDLC.Text2_15.Parent = PizzaDLC.Aimbot_3
+PizzaDLC.Text2_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_15.BackgroundTransparency = 1.000
+PizzaDLC.Text2_15.Position = UDim2.new(1.16957557, 0, -0.0116134277, 0)
+PizzaDLC.Text2_15.Size = UDim2.new(0, 95, 0, 16)
+PizzaDLC.Text2_15.Font = Enum.Font.Code
+PizzaDLC.Text2_15.Text = "Ignore Team Mates"
+PizzaDLC.Text2_15.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_15.TextSize = 14.000
+PizzaDLC.Text2_15.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_15.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_53.Parent = PizzaDLC.Aimbot_3
+
+PizzaDLC.Circle_15.Name = "Circle"
+PizzaDLC.Circle_15.Parent = PizzaDLC.Aimbot_3
+PizzaDLC.Circle_15.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_15.BorderSizePixel = 0
+PizzaDLC.Circle_15.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_15.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_15.Name = "Mini"
+PizzaDLC.Mini_15.Parent = PizzaDLC.Circle_15
+PizzaDLC.Mini_15.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_15.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_15.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_15.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_15.Visible = false
+
+PizzaDLC.UICorner_54.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_54.Parent = PizzaDLC.Mini_15
+
+PizzaDLC.UICorner_55.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_55.Parent = PizzaDLC.Circle_15
+
+PizzaDLC.Color_15.Name = "Color"
+PizzaDLC.Color_15.Parent = PizzaDLC.Aimbot_3
+PizzaDLC.Color_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_15.BackgroundTransparency = 1.000
+PizzaDLC.Color_15.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_15.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Bone.Name = "Bone"
+PizzaDLC.Bone.Parent = PizzaDLC.Aimbot
+PizzaDLC.Bone.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+PizzaDLC.Bone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Bone.Position = UDim2.new(0, 0, 0.164256796, 0)
+PizzaDLC.Bone.Size = UDim2.new(0, 132, 0, 18)
+
+PizzaDLC.Change.Name = "Change"
+PizzaDLC.Change.Parent = PizzaDLC.Bone
+PizzaDLC.Change.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Change.BackgroundTransparency = 1.000
+PizzaDLC.Change.Position = UDim2.new(0.0454545468, 0, 0, 0)
+PizzaDLC.Change.Size = UDim2.new(0, 61, 0, 17)
+PizzaDLC.Change.Font = Enum.Font.Code
+PizzaDLC.Change.Text = "Aim Bone"
+PizzaDLC.Change.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Change.TextSize = 14.000
+PizzaDLC.Change.TextStrokeTransparency = 0.000
+PizzaDLC.Change.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.Opener.Name = "Opener"
+PizzaDLC.Opener.Parent = PizzaDLC.Bone
+PizzaDLC.Opener.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Opener.BackgroundTransparency = 1.000
+PizzaDLC.Opener.Position = UDim2.new(0.818181813, 0, 0, 0)
+PizzaDLC.Opener.Size = UDim2.new(0, 24, 0, 17)
+PizzaDLC.Opener.Font = Enum.Font.Code
+PizzaDLC.Opener.Text = "+"
+PizzaDLC.Opener.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Opener.TextSize = 14.000
+PizzaDLC.Opener.TextStrokeTransparency = 0.000
+
+PizzaDLC.Boner.Name = "Boner"
+PizzaDLC.Boner.Parent = PizzaDLC.Bone
+PizzaDLC.Boner.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+PizzaDLC.Boner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Boner.Position = UDim2.new(0, 0, 1, 0)
+PizzaDLC.Boner.Size = UDim2.new(0, 132, 0, 54)
+PizzaDLC.Boner.Visible = false
+PizzaDLC.Boner.ZIndex = 4
+
+PizzaDLC.Head.Name = "Head"
+PizzaDLC.Head.Parent = PizzaDLC.Boner
+PizzaDLC.Head.BackgroundColor3 = Color3.fromRGB(172, 6, 255)
+PizzaDLC.Head.BackgroundTransparency = 1.000
+PizzaDLC.Head.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PizzaDLC.Head.BorderSizePixel = 0
+PizzaDLC.Head.Size = UDim2.new(0, 132, 0, 18)
+PizzaDLC.Head.ZIndex = 4
+PizzaDLC.Head.Font = Enum.Font.Code
+PizzaDLC.Head.Text = "Head (Blatant)"
+PizzaDLC.Head.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Head.TextSize = 14.000
+PizzaDLC.Head.TextStrokeTransparency = 0.000
+
+PizzaDLC.Torso.Name = "Torso"
+PizzaDLC.Torso.Parent = PizzaDLC.Boner
+PizzaDLC.Torso.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Torso.BackgroundTransparency = 1.000
+PizzaDLC.Torso.Position = UDim2.new(0, 0, 0.333333343, 0)
+PizzaDLC.Torso.Size = UDim2.new(0, 124, 0, 18)
+PizzaDLC.Torso.ZIndex = 4
+PizzaDLC.Torso.Font = Enum.Font.Code
+PizzaDLC.Torso.Text = "Torso (Legit)"
+PizzaDLC.Torso.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Torso.TextSize = 14.000
+PizzaDLC.Torso.TextStrokeTransparency = 0.000
+
+PizzaDLC.Misc.Name = "Misc"
+PizzaDLC.Misc.Parent = PizzaDLC.Frame
+PizzaDLC.Misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Misc.BackgroundTransparency = 1.000
+PizzaDLC.Misc.Position = UDim2.new(0.0192307699, 0, 0.210754156, 0)
+PizzaDLC.Misc.Size = UDim2.new(0, 299, 0, 400)
+PizzaDLC.Misc.Visible = false
+
+PizzaDLC.UIListLayout_8.Parent = PizzaDLC.Misc
+PizzaDLC.UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_8.Padding = UDim.new(0, 4)
+
+PizzaDLC.Speed.Name = "Speed"
+PizzaDLC.Speed.Parent = PizzaDLC.Misc
+PizzaDLC.Speed.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Speed.BorderSizePixel = 0
+PizzaDLC.Speed.Size = UDim2.new(0.0993603766, 0, 0.0408086553, 0)
+PizzaDLC.Speed.Font = Enum.Font.SourceSans
+PizzaDLC.Speed.Text = ""
+PizzaDLC.Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Speed.TextSize = 14.000
+
+PizzaDLC.Text2_16.Name = "Text2"
+PizzaDLC.Text2_16.Parent = PizzaDLC.Speed
+PizzaDLC.Text2_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_16.BackgroundTransparency = 1.000
+PizzaDLC.Text2_16.Position = UDim2.new(1.16957533, 0, -0.124758244, 0)
+PizzaDLC.Text2_16.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_16.Font = Enum.Font.Code
+PizzaDLC.Text2_16.Text = "Speed (Soon)"
+PizzaDLC.Text2_16.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_16.TextSize = 14.000
+PizzaDLC.Text2_16.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_16.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_56.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_56.Parent = PizzaDLC.Speed
+
+PizzaDLC.Circle_16.Name = "Circle"
+PizzaDLC.Circle_16.Parent = PizzaDLC.Speed
+PizzaDLC.Circle_16.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_16.BorderSizePixel = 0
+PizzaDLC.Circle_16.Position = UDim2.new(-0.00570388883, 0, 0.500000775, 0)
+PizzaDLC.Circle_16.Size = UDim2.new(0.49803099, 0, 1.00000036, 0)
+
+PizzaDLC.Mini_16.Name = "Mini"
+PizzaDLC.Mini_16.Parent = PizzaDLC.Circle_16
+PizzaDLC.Mini_16.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_16.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_16.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_16.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_16.Visible = false
+
+PizzaDLC.UICorner_57.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_57.Parent = PizzaDLC.Mini_16
+
+PizzaDLC.UICorner_58.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_58.Parent = PizzaDLC.Circle_16
+
+PizzaDLC.Color_16.Name = "Color"
+PizzaDLC.Color_16.Parent = PizzaDLC.Speed
+PizzaDLC.Color_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_16.BackgroundTransparency = 1.000
+PizzaDLC.Color_16.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_16.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Frame_9.Parent = PizzaDLC.Misc
+PizzaDLC.Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame_9.BackgroundTransparency = 1.000
+PizzaDLC.Frame_9.Position = UDim2.new(0, 0, 0.0508086383, 0)
+PizzaDLC.Frame_9.Size = UDim2.new(0, 264, 0, 19)
+PizzaDLC.Frame_9.Visible = false
+
+PizzaDLC.Slider4_2.Name = "Slider4"
+PizzaDLC.Slider4_2.Parent = PizzaDLC.Misc
+PizzaDLC.Slider4_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PizzaDLC.Slider4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Slider4_2.Position = UDim2.new(0, 0, 0.0816175044, 0)
+PizzaDLC.Slider4_2.Size = UDim2.new(0, 257, 0, 6)
+PizzaDLC.Slider4_2.Visible = false
+
+PizzaDLC.Slide4_2.Name = "Slide4"
+PizzaDLC.Slide4_2.Parent = PizzaDLC.Slider4_2
+PizzaDLC.Slide4_2.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Slide4_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Slide4_2.Position = UDim2.new(-0.000739331532, 0, 0, 0)
+PizzaDLC.Slide4_2.Size = UDim2.new(0, 74, 0, 6)
+
+PizzaDLC.UICorner_59.Parent = PizzaDLC.Slide4_2
+
+PizzaDLC.Frame_10.Name = "Frame"
+PizzaDLC.Frame_10.Parent = PizzaDLC.Slide4_2
+PizzaDLC.Frame_10.BackgroundTransparency = 1.000
+PizzaDLC.Frame_10.BorderSizePixel = 0
+PizzaDLC.Frame_10.Position = UDim2.new(0.952000022, 0, -1.74899995, 0)
+PizzaDLC.Frame_10.Size = UDim2.new(0, 18, 0, 26)
+PizzaDLC.Frame_10.ZIndex = 2
+PizzaDLC.Frame_10.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_10.ImageColor3 = Color3.fromRGB(180, 5, 255)
+PizzaDLC.Frame_10.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.Frame_11.Name = "Frame"
+PizzaDLC.Frame_11.Parent = PizzaDLC.Frame_10
+PizzaDLC.Frame_11.BackgroundTransparency = 1.000
+PizzaDLC.Frame_11.BorderSizePixel = 0
+PizzaDLC.Frame_11.Position = UDim2.new(0.222222224, 0, 0.288461536, 0)
+PizzaDLC.Frame_11.Size = UDim2.new(0, 14, 0, 18)
+PizzaDLC.Frame_11.Image = "http://www.roblox.com/asset/?id=6031625146"
+PizzaDLC.Frame_11.ImageColor3 = Color3.fromRGB(30, 30, 30)
+PizzaDLC.Frame_11.ScaleType = Enum.ScaleType.Fit
+
+PizzaDLC.UIListLayout_9.Parent = PizzaDLC.Frame_10
+PizzaDLC.UIListLayout_9.HorizontalAlignment = Enum.HorizontalAlignment.Center
+PizzaDLC.UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_9.VerticalAlignment = Enum.VerticalAlignment.Center
+
+PizzaDLC.stuff4_2.Name = "stuff4"
+PizzaDLC.stuff4_2.Parent = PizzaDLC.Slider4_2
+PizzaDLC.stuff4_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuff4_2.BackgroundTransparency = 1.000
+PizzaDLC.stuff4_2.Position = UDim2.new(0.270545572, 0, -3.23260498, 0)
+PizzaDLC.stuff4_2.Size = UDim2.new(0, 85, 0, 12)
+PizzaDLC.stuff4_2.Font = Enum.Font.Code
+PizzaDLC.stuff4_2.Text = "100"
+PizzaDLC.stuff4_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.stuff4_2.TextSize = 12.000
+PizzaDLC.stuff4_2.TextStrokeTransparency = 0.000
+PizzaDLC.stuff4_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.TextLabel_4.Parent = PizzaDLC.Slider4_2
+PizzaDLC.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_4.BackgroundTransparency = 1.000
+PizzaDLC.TextLabel_4.Position = UDim2.new(0.0152466772, 0, -3.23260498, 0)
+PizzaDLC.TextLabel_4.Size = UDim2.new(0, 66, 0, 12)
+PizzaDLC.TextLabel_4.Font = Enum.Font.Code
+PizzaDLC.TextLabel_4.Text = "Fov Size:"
+PizzaDLC.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_4.TextSize = 14.000
+PizzaDLC.TextLabel_4.TextStrokeTransparency = 0.000
+PizzaDLC.TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_60.CornerRadius = UDim.new(1, 0)
+PizzaDLC.UICorner_60.Parent = PizzaDLC.Slider4_2
+
+PizzaDLC.Frame2_3.Name = "Frame2"
+PizzaDLC.Frame2_3.Parent = PizzaDLC.Misc
+PizzaDLC.Frame2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame2_3.BackgroundTransparency = 1.000
+PizzaDLC.Frame2_3.Position = UDim2.new(0, 0, 0.133308634, 0)
+PizzaDLC.Frame2_3.Size = UDim2.new(0, 264, 0, 5)
+PizzaDLC.Frame2_3.Visible = false
+
+PizzaDLC.Fly.Name = "Fly"
+PizzaDLC.Fly.Parent = PizzaDLC.Misc
+PizzaDLC.Fly.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Fly.BorderSizePixel = 0
+PizzaDLC.Fly.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Fly.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Fly.Font = Enum.Font.SourceSans
+PizzaDLC.Fly.Text = ""
+PizzaDLC.Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Fly.TextSize = 14.000
+
+PizzaDLC.Text2_17.Name = "Text2"
+PizzaDLC.Text2_17.Parent = PizzaDLC.Fly
+PizzaDLC.Text2_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_17.BackgroundTransparency = 1.000
+PizzaDLC.Text2_17.Position = UDim2.new(1.16957533, 0, -0.0116139948, 0)
+PizzaDLC.Text2_17.Size = UDim2.new(0, 95, 0, 19)
+PizzaDLC.Text2_17.Font = Enum.Font.Code
+PizzaDLC.Text2_17.Text = "Fly (Soon)"
+PizzaDLC.Text2_17.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_17.TextSize = 14.000
+PizzaDLC.Text2_17.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_17.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_61.Parent = PizzaDLC.Fly
+
+PizzaDLC.Circle_17.Name = "Circle"
+PizzaDLC.Circle_17.Parent = PizzaDLC.Fly
+PizzaDLC.Circle_17.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_17.BorderSizePixel = 0
+PizzaDLC.Circle_17.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_17.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_17.Name = "Mini"
+PizzaDLC.Mini_17.Parent = PizzaDLC.Circle_17
+PizzaDLC.Mini_17.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_17.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_17.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_17.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_17.Visible = false
+
+PizzaDLC.UICorner_62.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_62.Parent = PizzaDLC.Mini_17
+
+PizzaDLC.UICorner_63.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_63.Parent = PizzaDLC.Circle_17
+
+PizzaDLC.Color_17.Name = "Color"
+PizzaDLC.Color_17.Parent = PizzaDLC.Fly
+PizzaDLC.Color_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_17.BackgroundTransparency = 1.000
+PizzaDLC.Color_17.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_17.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.IrrelevantBp.Name = "IrrelevantBp"
+PizzaDLC.IrrelevantBp.Parent = PizzaDLC.Misc
+PizzaDLC.IrrelevantBp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.IrrelevantBp.BackgroundTransparency = 1.000
+PizzaDLC.IrrelevantBp.Position = UDim2.new(0, 0, 0.101808622, 0)
+PizzaDLC.IrrelevantBp.Size = UDim2.new(0, 280, 0, 349)
+
+PizzaDLC.TextLabel_5.Parent = PizzaDLC.IrrelevantBp
+PizzaDLC.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_5.BackgroundTransparency = 1.000
+PizzaDLC.TextLabel_5.Size = UDim2.new(0, 119, 0, 20)
+PizzaDLC.TextLabel_5.Font = Enum.Font.Code
+PizzaDLC.TextLabel_5.Text = "Toggle Key: Insert"
+PizzaDLC.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.TextLabel_5.TextSize = 14.000
+PizzaDLC.TextLabel_5.TextStrokeTransparency = 0.000
+PizzaDLC.TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UIListLayout_10.Parent = PizzaDLC.IrrelevantBp
+PizzaDLC.UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
+PizzaDLC.UIListLayout_10.Padding = UDim.new(0, 4)
+
+PizzaDLC.Frame_12.Parent = PizzaDLC.IrrelevantBp
+PizzaDLC.Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Frame_12.BorderSizePixel = 0
+PizzaDLC.Frame_12.Position = UDim2.new(0, 0, 0.106017195, 0)
+
+PizzaDLC.Unlocker.Name = "Unlocker"
+PizzaDLC.Unlocker.Parent = PizzaDLC.IrrelevantBp
+PizzaDLC.Unlocker.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PizzaDLC.Unlocker.BorderSizePixel = 0
+PizzaDLC.Unlocker.Position = UDim2.new(0, 0, 0.0758086368, 0)
+PizzaDLC.Unlocker.Size = UDim2.new(0.0989999995, 0, 0.0410000011, 0)
+PizzaDLC.Unlocker.Font = Enum.Font.SourceSans
+PizzaDLC.Unlocker.Text = ""
+PizzaDLC.Unlocker.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaDLC.Unlocker.TextSize = 14.000
+
+PizzaDLC.Text2_18.Name = "Text2"
+PizzaDLC.Text2_18.Parent = PizzaDLC.Unlocker
+PizzaDLC.Text2_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Text2_18.BackgroundTransparency = 1.000
+PizzaDLC.Text2_18.Position = UDim2.new(1.16957629, 0, -0.0116149783, 0)
+PizzaDLC.Text2_18.Size = UDim2.new(0, 95, 0, 14)
+PizzaDLC.Text2_18.Font = Enum.Font.Code
+PizzaDLC.Text2_18.Text = "Unlock Fps"
+PizzaDLC.Text2_18.TextColor3 = Color3.fromRGB(249, 249, 249)
+PizzaDLC.Text2_18.TextSize = 14.000
+PizzaDLC.Text2_18.TextStrokeTransparency = 0.000
+PizzaDLC.Text2_18.TextXAlignment = Enum.TextXAlignment.Left
+
+PizzaDLC.UICorner_64.Parent = PizzaDLC.Unlocker
+
+PizzaDLC.Circle_18.Name = "Circle"
+PizzaDLC.Circle_18.Parent = PizzaDLC.Unlocker
+PizzaDLC.Circle_18.AnchorPoint = Vector2.new(0, 0.5)
+PizzaDLC.Circle_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Circle_18.BorderSizePixel = 0
+PizzaDLC.Circle_18.Position = UDim2.new(-0.00570315449, 0, 0.500000715, 0)
+PizzaDLC.Circle_18.Size = UDim2.new(0.49803099, 0, 1.00000048, 0)
+
+PizzaDLC.Mini_18.Name = "Mini"
+PizzaDLC.Mini_18.Parent = PizzaDLC.Circle_18
+PizzaDLC.Mini_18.AnchorPoint = Vector2.new(0.5, 0.5)
+PizzaDLC.Mini_18.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PizzaDLC.Mini_18.Position = UDim2.new(0.521339715, 0, 0.499999702, 0)
+PizzaDLC.Mini_18.Size = UDim2.new(0.521444261, 0, 0.5, 0)
+PizzaDLC.Mini_18.Visible = false
+
+PizzaDLC.UICorner_65.CornerRadius = UDim.new(0, 100)
+PizzaDLC.UICorner_65.Parent = PizzaDLC.Mini_18
+
+PizzaDLC.UICorner_66.CornerRadius = UDim.new(0, 6)
+PizzaDLC.UICorner_66.Parent = PizzaDLC.Circle_18
+
+PizzaDLC.Color_18.Name = "Color"
+PizzaDLC.Color_18.Parent = PizzaDLC.Unlocker
+PizzaDLC.Color_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Color_18.BackgroundTransparency = 1.000
+PizzaDLC.Color_18.Position = UDim2.new(0, 0, 0.108539142, 0)
+PizzaDLC.Color_18.Size = UDim2.new(0, 315, 0, 225)
+
+PizzaDLC.Idk.Name = "Idk"
+PizzaDLC.Idk.Parent = PizzaDLC.PizzaDLC
+PizzaDLC.Idk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PizzaDLC.Idk.BackgroundTransparency = 1.000
+PizzaDLC.Idk.Position = UDim2.new(0.4496454, 0, 0.0284301601, 0)
+PizzaDLC.Idk.Size = UDim2.new(0, 221, 0, 19)
+PizzaDLC.Idk.Font = Enum.Font.ArialBold
+PizzaDLC.Idk.Text = "0c2 is your best friend"
+PizzaDLC.Idk.TextColor3 = Color3.fromRGB(255, 0, 0)
+PizzaDLC.Idk.TextSize = 14.000
+
+-- Scripts:
+
+local function CLGGV_fake_script() -- PizzaDLC.Visual.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Visual)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ESPs.BackgroundTransparency = 1
+		script.Parent.Parent.Visual.BackgroundTransparency = 0
+		script.Parent.Parent.Bot.BackgroundTransparency = 1
+		script.Parent.Parent.Mis.BackgroundTransparency = 1
+		
+		-- Tabs
+		script.Parent.Parent.Parent.Visuals.Visible = true
+		script.Parent.Parent.Parent.Esp.Visible = false
+		script.Parent.Parent.Parent.Aimbot.Visible = false
+		script.Parent.Parent.Parent.Misc.Visible = false
+	end)
+end
+coroutine.wrap(CLGGV_fake_script)()
+local function BJPVO_fake_script() -- PizzaDLC.ESPs.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.ESPs)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ESPs.BackgroundTransparency = 0
+		script.Parent.Parent.Visual.BackgroundTransparency = 1
+		script.Parent.Parent.Bot.BackgroundTransparency = 1
+		script.Parent.Parent.Mis.BackgroundTransparency = 1
+	
+		-- Tabs
+		script.Parent.Parent.Parent.Visuals.Visible = false
+		script.Parent.Parent.Parent.Esp.Visible = true
+		script.Parent.Parent.Parent.Aimbot.Visible = false
+		script.Parent.Parent.Parent.Misc.Visible = false
+	end)
+end
+coroutine.wrap(BJPVO_fake_script)()
+local function LLYVOAF_fake_script() -- PizzaDLC.Bot.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Bot)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ESPs.BackgroundTransparency = 1
+		script.Parent.Parent.Visual.BackgroundTransparency = 1
+		script.Parent.Parent.Mis.BackgroundTransparency = 1
+		script.Parent.Parent.Bot.BackgroundTransparency = 0
+	
+		-- Tabs
+		script.Parent.Parent.Parent.Visuals.Visible = false
+		script.Parent.Parent.Parent.Esp.Visible = false
+		script.Parent.Parent.Parent.Aimbot.Visible = true
+		script.Parent.Parent.Parent.Misc.Visible = false
+	end)
+end
+coroutine.wrap(LLYVOAF_fake_script)()
+local function GMAAK_fake_script() -- PizzaDLC.Mis.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Mis)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ESPs.BackgroundTransparency = 1
+		script.Parent.Parent.Visual.BackgroundTransparency = 1
+		script.Parent.Parent.Mis.BackgroundTransparency = 0
+		script.Parent.Parent.Bot.BackgroundTransparency = 1
+	
+		-- Tabs
+		script.Parent.Parent.Parent.Visuals.Visible = false
+		script.Parent.Parent.Parent.Esp.Visible = false
+		script.Parent.Parent.Parent.Aimbot.Visible = false
+		script.Parent.Parent.Parent.Misc.Visible = true
+	end)
+end
+coroutine.wrap(GMAAK_fake_script)()
+local function FYJQ_fake_script() -- PizzaDLC.Fov.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Fov)
+
+	fovu = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if fovu == true then 
+			fovu = false 
+		else
+			fovu = true
+		end
+		if fovu == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if fovu == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if fovu == true then
+			_G.CF = true
+			script.Parent.Parent.Frame.Visible = true
+			script.Parent.Parent.Slider4.Visible = true
+			script.Parent.Parent.Frame2.Visible = true
+		end
+	
+		if fovu == false then 
+			_G.CF = false
+			script.Parent.Parent.Frame.Visible = false
+			script.Parent.Parent.Slider4.Visible = false
+			script.Parent.Parent.Frame2.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(FYJQ_fake_script)()
+local function BFFB_fake_script() -- PizzaDLC.Slider4.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Slider4)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.Slider4
+		local slidingFrame = script.Parent.Slide4
+		local circle = slidingFrame.Frame
+		local titleLabel = script.Parent.stuff4
+	
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.0, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. "" .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("", function(value) if _G.CF == true then game.Workspace.Camera.FieldOfView  = value end end, 40, 120, 80);
+end
+coroutine.wrap(BFFB_fake_script)()
+local function ERFWT_fake_script() -- PizzaDLC.Crosshair.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Crosshair)
+
+	Zed2 = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Zed2 == true then 
+			Zed2 = false 
+		else
+			Zed2 = true
+		end
+		if Zed2 == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if Zed2 == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if Zed2 == true then
+			
+				crosshairlength = 24
+	
+			local uis = game:GetService('UserInputService')
+			local cc = game.Workspace.CurrentCamera;
+			local xl = Drawing.new("Line")
+			xl.Visible = true;
+			local yl = Drawing.new("Line")
+			yl.Visible = true;
+			xl.Thickness = 1;
+			yl.Thickness = 1;
+			xl.Color = Color3.fromRGB(179, 0, 255);
+			yl.Color = Color3.fromRGB(179, 0, 255);
+			xl.From = Vector2.new((cc.ViewportSize.X / 2) + (crosshairlength / 2 + 1), cc.ViewportSize.Y / 2)
+			xl.To = Vector2.new(cc.ViewportSize.X / 2 - (crosshairlength / 2), cc.ViewportSize.Y / 2)
+			yl.From = Vector2.new(cc.ViewportSize.X / 2, cc.ViewportSize.Y / 2 + (crosshairlength / 2))
+			yl.To = Vector2.new(cc.ViewportSize.X / 2, cc.ViewportSize.Y / 2 - (crosshairlength / 2))
+			function rainbow(yeet)
+				return math.acos(math.cos(yeet * math.pi)) / math.pi
+			end
+			local count = 0
+			local rgb = coroutine.create(function()
+				while wait(0.1) do
+					pcall(function()
+						xl.Color = Color3.fromRGB(179, 0, 255)
+						yl.Color = Color3.fromRGB(179, 0, 255)
+						count = count + 0.01
+					end)
+				end
+			end)
+			coroutine.resume(rgb)
+			uis.InputBegan:Connect(function(i)
+				if not Zed2 then
+					xl:Remove()
+					yl:Remove()
+				end
+			end)
+	
+		end
+	
+		if Zed2 == false then 
+		
+		end
+	end)
+	
+end
+coroutine.wrap(ERFWT_fake_script)()
+local function SCBMJTV_fake_script() -- PizzaDLC.Activated.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Activated)
+
+	Esps = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Esps == true then 
+			Esps = false 
+		else
+			Esps = true
+		end
+		if Esps == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if Esps == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if Esps == true then
+			ESP:Toggle(true)
+		end
+	
+		if Esps == false then 
+			ESP:Toggle(false)
+		end
+	end)
+	
+end
+coroutine.wrap(SCBMJTV_fake_script)()
+local function SKVGSMG_fake_script() -- PizzaDLC.Boxes.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Boxes)
+
+	Boxes = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Boxes == true then 
+			Boxes = false 
+		else
+			Boxes = true
+		end
+		if Boxes == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if Boxes == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if Boxes == true then
+			ESP.Boxes = true
+	
+		end
+	
+		if Boxes == false then 
+			ESP.Boxes = false
+	
+		end
+	end)
+	
+end
+coroutine.wrap(SKVGSMG_fake_script)()
+local function QWDELTW_fake_script() -- PizzaDLC.ST.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.ST)
+
+	trc = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if trc == true then 
+			trc = false 
+		else
+			trc = true
+		end
+		if trc == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if trc == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if trc == true then
+			ESP.Tracers = true
+	
+		end
+	
+		if trc == false then 
+			ESP.Tracers = false
+		end
+	end)
+	
+end
+coroutine.wrap(QWDELTW_fake_script)()
+local function BOCK_fake_script() -- PizzaDLC.SD.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.SD)
+
+	Zed = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Zed == true then 
+			Zed = false 
+		else
+			Zed = true
+		end
+		if Zed == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if Zed == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if Zed == true then
+			ESP.Distance.Visible = true
+		
+	
+		end
+	
+		if Zed == false then 
+			ESP.Distance.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(BOCK_fake_script)()
+local function AMIMUGE_fake_script() -- PizzaDLC.SN.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.SN)
+
+	names = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if names == true then 
+			names = false 
+		else
+			names = true
+		end
+		if names == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if names == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if names == true then
+			ESP.Names = true
+	
+		end
+	
+		if names == false then 
+			ESP.Names = false
+		end
+	end)
+	
+end
+coroutine.wrap(AMIMUGE_fake_script)()
+local function BXGJEBJ_fake_script() -- PizzaDLC.CTDF.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.CTDF)
+
+	Zed = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Zed == true then 
+			Zed = false 
+		else
+			Zed = true
+		end
+		if Zed == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if Zed == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if Zed == true then
+			
+			script.Parent.Parent.Trc.Visible = true
+			script.Parent.Parent.SliderT.Visible = true
+			script.Parent.Parent.Trc2.Visible = true
+			
+	
+		end
+	
+		if Zed == false then 
+			script.Parent.Parent.Trc.Visible = false
+			script.Parent.Parent.SliderT.Visible = false
+			script.Parent.Parent.Trc2.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(BXGJEBJ_fake_script)()
+local function QEBXBHE_fake_script() -- PizzaDLC.SliderT.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.SliderT)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.SliderT
+		local slidingFrame = script.Parent.SlideT
+		local circle = slidingFrame.FrameT
+		local titleLabel = script.Parent.stuffT
+	
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.0, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. "" .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("", function(value) ESP.AttachShift = value end, 1, 100, 80);
+end
+coroutine.wrap(QEBXBHE_fake_script)()
+local function AYULU_fake_script() -- PizzaDLC.UD.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.UD)
+
+	Zed = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Zed == true then 
+			Zed = false 
+		else
+			Zed = true
+		end
+		if Zed == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if Zed == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if Zed == true then
+			
+			
+			
+	
+		end
+	
+		if Zed == false then 
+			
+		end
+	end)
+	
+end
+coroutine.wrap(AYULU_fake_script)()
+local function QDMSFEH_fake_script() -- PizzaDLC.TC.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.TC)
+
+	TM = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if TM == true then 
+			TM = false 
+		else
+			TM = true
+		end
+		if TM == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if TM == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if TM == true then
+			ESP.TeamMates = false
+			
+	
+		end
+	
+		if TM == false then 
+			ESP.TeamMates = true
+		end
+	end)
+	
+end
+coroutine.wrap(QDMSFEH_fake_script)()
+local function ABSRXJ_fake_script() -- PizzaDLC.TCC.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.TCC)
+
+	TC = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if TC == true then 
+			TC = false 
+		else
+			TC = true
+		end
+		if TC == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if TC == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if TC == true then
+			ESP.TeamColor = true
+	
+		end
+	
+		if TC == false then 
+			ESP.TeamColor = false
+		end
+	end)
+	
+end
+coroutine.wrap(ABSRXJ_fake_script)()
+local function QKYWPUT_fake_script() -- PizzaDLC.Rainbow.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Rainbow)
+
+	high2 = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if high2 == true then 
+			high2 = false 
+		else
+			high2 = true
+		end
+		if high2 == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if high2 == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if high2 == true then
+			repeat
+				wait(0)
+				ESP.Color = script.Parent.Parent.Parent.RainbowC.BackgroundColor3
+			until  high2 == false
+			script.Parent.Parent.Tr3.Visible = true
+			script.Parent.Parent.SliderR.Visible = true
+			script.Parent.Parent.Trc3.Visible = true
+		end
+	
+		if high2 == false then 
+			script.Parent.Parent.Tr3.Visible = false
+			script.Parent.Parent.SliderR.Visible = false
+			script.Parent.Parent.Trc3.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(QKYWPUT_fake_script)()
+local function BMTNC_fake_script() -- PizzaDLC.RainbowC.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.RainbowC)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(BMTNC_fake_script)()
+local function QUFXDI_fake_script() -- PizzaDLC.Fov_2.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Fov_2)
+
+	fovu = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if fovu == true then 
+			fovu = false 
+		else
+			fovu = true
+		end
+		if fovu == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if fovu == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if fovu == true then
+			_G.fovcircle.Visible = true
+			script.Parent.Parent.Frame.Visible = true
+			script.Parent.Parent.SliderFV.Visible = true
+			script.Parent.Parent.Frame2.Visible = true
+		end
+	
+		if fovu == false then 
+			_G.fovcircle.Visible = false
+			script.Parent.Parent.Frame.Visible = false
+			script.Parent.Parent.SliderFV.Visible = false
+			script.Parent.Parent.Frame2.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(QUFXDI_fake_script)()
+local function ZIKD_fake_script() -- PizzaDLC.SliderFV.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.SliderFV)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.SliderFV
+		local slidingFrame = script.Parent.Slidefv
+		local circle = slidingFrame.Frame
+		local titleLabel = script.Parent.stufffv
+	
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.0, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. "" .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("", function(value) _G.fovcircle.Radius = value end, 40, 450, 80);
+end
+coroutine.wrap(ZIKD_fake_script)()
+local function VWIPOD_fake_script() -- PizzaDLC.Aimbot_2.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Aimbot_2)
+
+	aimb = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if aimb == true then 
+			aimb = false 
+		else
+			aimb = true
+		end
+		if aimb == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if aimb == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if aimb == true then
+			local Players = game:GetService("Players")
+			local RunService = game:GetService("RunService")
+			local UserInputService = game:GetService("UserInputService")
+			local GuiService = game:GetService("GuiService")
+	
+			local LocalPlayer = Players.LocalPlayer
+			local Mouse = LocalPlayer:GetMouse()
+			local Camera = workspace.CurrentCamera
+			local sc = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+	
+			local Tweens = {};
+	
+			local Down = false
+			local Inset = GuiService:GetGuiInset()
+	
+			-- Settings
+			getgenv().Options = {
+				Enabled = true,
+				TeamCheck = false,
+				Triggerbot = false,
+				Smoothness = true,
+				AimPart = _G.Aimpart,
+				FOV = 150,
+				Smoothness = 0.03
+			}
+	
+	
+			-- 
+			-- Aimpart
+			getgenv().Aiming = {
+				AimPart = "Head"
+			}
+	
+			-- 
+	
+			-- 
+			local gc = function()
+				local nearest = math.huge
+				local nearplr
+				for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+					if v ~= game:GetService("Players").LocalPlayer and v.Character and v.Character:FindFirstChild(Aiming.AimPart) then
+						if Options.TeamCheck then
+							if game:GetService("Players").LocalPlayer.Team ~= v.Team then
+								local pos = Camera:WorldToScreenPoint(v.Character[Aiming.AimPart].Position)
+								local diff = math.sqrt((pos.X - sc.X) ^ 2 + (pos.Y + Inset.Y - sc.Y) ^ 2)
+								if diff < nearest and diff < Options.FOV then
+									nearest = diff
+									nearplr = v
+								end
+							end
+						else
+							local pos = Camera:WorldToScreenPoint(v.Character[Aiming.AimPart].Position)
+							local diff = math.sqrt((pos.X - sc.X) ^ 2 + (pos.Y + Inset.Y - sc.Y) ^ 2)
+							if diff < nearest and diff < Options.FOV then
+								nearest = diff
+								nearplr = v
+							end
+						end
+					end
+				end
+				return nearplr
+			end 
+	
+			function Circle()
+				local circ = Drawing.new('Circle')
+				circ.Transparency = 1
+				circ.Thickness = 1.5
+				circ.Visible = false
+				circ.Color = Color3.fromRGB(255,255,255)
+				circ.Filled = false
+				circ.NumSides = 150
+				circ.Radius = Options.FOV
+				return circ
+			end
+	
+			curc = Circle()
+	
+			-- Keycode
+			UserInputService.InputBegan:Connect(function( input )
+				if input.UserInputType == Enum.UserInputType.MouseButton2 then
+					Down = true
+				end
+			end)
+	
+			UserInputService.InputEnded:Connect(function( input )
+				if input.UserInputType == Enum.UserInputType.MouseButton2 then
+					Down = false
+					for Index, Value in next, Tweens do 
+						Value:Cancel();
+					end;
+					Tweens = {};
+				end
+			end)
+	
+			RunService.RenderStepped:Connect(function( ... )
+				if Options.Enabled then
+					if Down then
+						if gc() ~= nil and gc().Character:FindFirstChild(Aiming.AimPart) then
+							if Options.Smoothness then
+								pcall(function( ... )
+									local Info = TweenInfo.new(getgenv().Options.Smoothness,Enum.EasingStyle.Linear,Enum.EasingDirection.Out)
+									local Tween = game:GetService("TweenService"):Create(Camera,Info,{
+										CFrame = CFrame.new(Camera.CFrame.p,gc().Character[Aiming.AimPart].CFrame.p)
+									}):Play()
+	
+									Tweens[Tween] = Tween;
+								end)
+							else
+								pcall(function()
+									Camera.CFrame = CFrame.new(Camera.CFrame.p,gc().Character[Aiming.AimPart].CFrame.p)
+								end)
+							end
+						end
+					end
+					curc.Visible = false
+					curc.Position = Vector2.new(Mouse.X, Mouse.Y+Inset.Y)
+					curc.Radius = Options.FOV
+				else
+					-- Remove fov (invisible anyway)
+					curc.Visible = false
+				end
+			end)
+	
+		end
+	
+		if aimb == false then 
+			-- Settings
+			getgenv().Options = {
+				Enabled = true,
+				TeamCheck = false,
+				Triggerbot = false,
+				Smoothness = true,
+				AimPart = _G.Aimpart,
+				FOV = 150,
+				Smoothness = 0.03
+			}
+		end
+	end)
+	
+end
+coroutine.wrap(VWIPOD_fake_script)()
+local function WZIWU_fake_script() -- PizzaDLC.Aimbot_3.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Aimbot_3)
+
+	aimb = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if aimb == true then 
+			aimb = false 
+		else
+			aimb = true
+		end
+		if aimb == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if aimb == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if aimb == true then
+			-- Settings
+			getgenv().Options = {
+				Enabled = true,
+				TeamCheck = true,
+				Triggerbot = false,
+				Smoothness = true,
+				AimPart = _G.Aimpart,
+				FOV = 150,
+				Smoothness = 0.03
+			}
+	
+	
+		end
+	
+		if aimb == false then 
+			-- Settings
+			getgenv().Options = {
+				Enabled = true,
+				TeamCheck = false,
+				Triggerbot = false,
+				Smoothness = true,
+				AimPart = _G.Aimpart,
+				FOV = 150,
+				Smoothness = 0.03
+			}
+		end
+	end)
+	
+end
+coroutine.wrap(WZIWU_fake_script)()
+local function RXMO_fake_script() -- PizzaDLC.Opener.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Opener)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Frame = script.Parent.Parent.Boner
+		if Frame.Visible == false then
+			Frame.Visible = true
+			
+		else
+			Frame.Visible = false
+			
+		end
+	end)
+end
+coroutine.wrap(RXMO_fake_script)()
+local function LAWB_fake_script() -- PizzaDLC.Head.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Head)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.Change.Text = "Head"
+	getgenv().Aiming = {
+		AimPart = "Head"
+		}
+		end)
+end
+coroutine.wrap(LAWB_fake_script)()
+local function UFLGDXS_fake_script() -- PizzaDLC.Torso.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Torso)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Change.Text = "Upper Torso"
+		getgenv().Aiming = {
+			AimPart = "UpperTorso"
+		}
+	end)
+end
+coroutine.wrap(UFLGDXS_fake_script)()
+local function JRUG_fake_script() -- PizzaDLC.Speed.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Speed)
+
+	fovu = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if fovu == true then 
+			fovu = false 
+		else
+			fovu = true
+		end
+		if fovu == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+	
+		end
+		if fovu == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+	
+		end
+	
+		if fovu == true then
+		
+		end
+	
+		if fovu == false then 
+		
+		end
+	end)
+	
+end
+coroutine.wrap(JRUG_fake_script)()
+local function OKJWZV_fake_script() -- PizzaDLC.Slider4_2.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Slider4_2)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.Slider4
+		local slidingFrame = script.Parent.Slide4
+		local circle = slidingFrame.Frame
+		local titleLabel = script.Parent.stuff4
+	
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.0, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. "" .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("", function(value) if _G.CF == true then game.Workspace.Camera.FieldOfView  = value end end, 40, 120, 80);
+end
+coroutine.wrap(OKJWZV_fake_script)()
+local function XCGT_fake_script() -- PizzaDLC.Fly.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Fly)
+
+	FL = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if FL == true then 
+			FL = false 
+		else
+			FL = true
+		end
+		if FL == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if FL == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if FL == true then
+			
+	
+		end
+	
+		if FL == false then 
+		
+		end
+	end)
+	
+end
+coroutine.wrap(XCGT_fake_script)()
+local function PCJXE_fake_script() -- PizzaDLC.Unlocker.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Unlocker)
+
+	Zed = false
+	local Frame = script.Parent.Circle
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if Zed == true then 
+			Zed = false 
+		else
+			Zed = true
+		end
+		if Zed == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(180, 5, 255)
+			Frame:TweenPosition(UDim2.new(0.566, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1)
+		end
+		if Zed == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Frame:TweenPosition(UDim2.new(0.036, 0,0.5, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Sine,0.1) 
+		end
+	
+		if Zed == true then
+			local fps = 400
+	
+			if setfpscap then
+				setfpscap(fps)
+			end
+		end
+	
+		if Zed == false then 
+			local fps = 60
+	
+			if setfpscap then
+				setfpscap(fps)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(PCJXE_fake_script)()
+local function QUCWPDG_fake_script() -- PizzaDLC.Drag.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Drag)
+
+	p = script.Parent
+	p.Active = true
+	p.Draggable = true
+	
+	
+	local UIS = game:GetService("UserInputService")
+	local toggle = false
+	local plr = game.Players.LocalPlayer
+	
+	UIS.InputBegan:Connect(function(input, proc)
+		if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == Enum.KeyCode.Insert then
+			toggle = not toggle
+			if toggle == true then
+				p.Visible = true
+				_G.Me.Visible = true
+			elseif not toggle then
+				p.Visible = false
+				_G.Me.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(QUCWPDG_fake_script)()
+local function VMMSA_fake_script() -- PizzaDLC.Drag.Fov Circle 
+	local script = Instance.new('LocalScript', PizzaDLC.Drag)
+
+	Mouse = game.Players.LocalPlayer:GetMouse()
+	function WTS(obj)
+		local screen = workspace.CurrentCamera:WorldToViewportPoint(obj)
+		return Vector2.new(screen.x, screen.y)
+	end
+	
+	
+	_G.fovcircle = Drawing.new("Circle")
+	_G.fovcircle.Visible = false
+	_G.fovcircle.Radius = 100
+	_G.fovcircle.NumSides = 64
+	_G.fovcircle.Color = Color3.fromRGB(184, 2, 255)
+	_G.fovcircle.Thickness = 1
+	_G.fovcircle.Filled = false
+	_G.fovcircle.Transparency = 1
+	
+	game.RunService.RenderStepped:Connect(function()
+		_G.fovcircle.Position = WTS(Mouse.hit.p)
+	end)
+end
+coroutine.wrap(VMMSA_fake_script)()
+local function VWJWGSH_fake_script() -- PizzaDLC.Drag.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Drag)
+
+	p = script.Parent
+	p.Active = true
+	p.Draggable = true
+	
+	local UIS = game:GetService("UserInputService")
+	local toggle = false
+	local plr = game.Players.LocalPlayer
+	
+	UIS.InputBegan:Connect(function(input, proc)
+		if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == Enum.KeyCode.Insert then
+			toggle = not toggle
+			if toggle == true then
+				p.Visible = true
+			elseif not toggle then
+				p.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(VWJWGSH_fake_script)()
+local function ABAVPA_fake_script() -- PizzaDLC.Idk.LocalScript 
+	local script = Instance.new('LocalScript', PizzaDLC.Idk)
+
+	_G.Me = script.Parent
+end
+coroutine.wrap(ABAVPA_fake_script)()
